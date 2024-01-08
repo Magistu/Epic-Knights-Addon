@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "a a",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:leather_strip"
+    },
+    "b": {
+      "tag": "forge:nuggets/steel"
+    },
+    "c": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:cervelliere",
+    "count": 1
+  }
+}

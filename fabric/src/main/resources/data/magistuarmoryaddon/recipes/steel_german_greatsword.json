@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  i",
+        "ns ",
+        "hn "
+    ],
+    "key": {
+        "s": {
+            "item": "magistuarmory:steel_shortsword"
+        },
+        "i": {
+            "tag": "c:steel_ingots"
+        },
+        "n": {
+            "tag": "c:steel_ingots"
+        },
+        "h": {
+            "item": "magistuarmory:hilt"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:steel_german_greatsword",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmoryaddon:greenwich_armet"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_greenwich_armet",
+        "count": 1
+    }
+}

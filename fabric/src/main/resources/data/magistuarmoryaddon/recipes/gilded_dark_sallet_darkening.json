@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmoryaddon:gilded_sallet"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_dark_sallet",
+        "count": 1
+    }
+}

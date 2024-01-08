@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Epic-Knights-Addon-1.19.2-crossversion.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Epic-Knights-Addon-1.19.2-crossversion.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Epic-Knights-Addon-1.19.2-crossversion.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Epic-Knights-Addon-1.19.2-crossversion.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Epic-Knights-Addon-1.19.2-crossversion.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Epic-Knights-Addon-1.19.2-crossversion.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/Epic-Knights-Addon-1.19.2-crossversion.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/Epic-Knights-Addon-1.19.2-crossversion.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/Epic-Knights-Addon-1.19.2-crossversion.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/Epic-Knights-Addon-1.19.2-crossversion.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/Epic-Knights-Addon-1.19.2-crossversion.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/Epic-Knights-Addon-1.19.2-crossversion.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/Epic-Knights-Addon-1.19.2-crossversion.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/Epic-Knights-Addon-1.19.2-crossversion.forge.test.iml" />
+    </modules>
+  </component>
+</project>

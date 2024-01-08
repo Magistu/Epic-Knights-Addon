@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " u ",
+    "gsu",
+    " p "
+  ],
+  "key": {
+    "g": {
+      "tag": "c:steel_plates"
+    },
+    "s": {
+      "tag": "c:wooden_rods"
+    },
+    "p": {
+      "item": "magistuarmory:pole"
+    },
+    "u": {
+      "tag": "c:steel_nuggets"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_voulge",
+    "count": 1
+  }
+}

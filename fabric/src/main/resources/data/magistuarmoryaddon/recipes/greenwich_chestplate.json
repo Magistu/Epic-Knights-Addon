@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "aca",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_ingots"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "item": "magistuarmory:knight_chestplate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:greenwich_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "aca",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "magistuarmory:leather_strip"
+    },
+    "c": {
+      "item": "magistuarmory:lamellar_boots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:saracen_boots",
+    "count": 1
+  }
+}

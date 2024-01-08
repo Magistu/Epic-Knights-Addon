@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bbb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:steel_plate"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:morion",
+    "count": 1
+  }
+}

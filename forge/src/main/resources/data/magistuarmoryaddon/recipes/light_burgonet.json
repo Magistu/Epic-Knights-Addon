@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_plate"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:light_burgonet",
+    "count": 1
+  }
+}

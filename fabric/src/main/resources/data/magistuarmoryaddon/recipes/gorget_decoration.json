@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:gorget_decoration",
+    "count": 1
+  }
+}

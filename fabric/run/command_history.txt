@@ -1,0 +1,19 @@
+/give @a magistuarmoryaddon:dark_barding
+/summon horse ~ ~ ~ {Tame:1,SaddleItem:{id:saddle,Count:1}}
+/time set day
+/weather clear
+/time set day
+/weather day
+/time set day
+/weather clear
+/time day
+/time set day
+/gamerule doDaylightCycle false
+/weather clear
+/summon minecraft:zombie ~ ~ ~ {ArmorItems:[{Count:1,id:"magistuarmoryaddon:closed_barbute"}]}
+/gamerule doMobSpawning false
+/summon minecraft:zombie ~ ~ ~ {ArmorItems:[{Count:1,id:"magistuarmoryaddon:closed_barbute"}]}
+/summon minecraft:zombie ~ ~ ~ {ArmorItems:[{Count:1,id:"magistuarmory:barbute"}]}
+/summon minecraft:zombie ~ ~ ~ {ArmorItems:[{Count:1,id:barbute}]}
+/summon minecraft:zombie ~ ~ ~ {ArmorItems:[{Count:1,id:"magistuarmory:armet"}]}
+/weather clear
