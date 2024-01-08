@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "a a",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:woolen_fabric"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:linen_coif",
+    "count": 1
+  }
+}

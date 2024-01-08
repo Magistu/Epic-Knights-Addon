@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "c c",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:woolen_fabric"
+    },
+    "b": {
+      "tag": "forge:ingots/steel"
+    },
+    "c": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:chapel",
+    "count": 1
+  }
+}

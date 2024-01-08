@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "b b",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:chainmail_boots"
+    },
+    "b": {
+      "item": "magistuarmory:leather_strip"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:pikeman_boots",
+    "count": 1
+  }
+}

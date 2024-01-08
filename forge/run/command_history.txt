@@ -1,0 +1,16 @@
+/t
+/weather clear
+/summon horse ~ ~ ~ {Tame:1,SaddleItem:{id:saddle,Count:1}}
+/summon pig
+/gamerule doDaylightCycle false
+/time set day
+/weather clear
+/summon horse ~ ~ ~ {Tame:1,SaddleItem:{id:saddle,Count:1}}
+/summon minecraft:skeleton
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/summon zombie ~ ~1 ~ {HandItems:[{Count:1,id:diamond_sword},{Count:1,id:shield}],ArmorItems:[{Count:1,id:diamond_boots},{Count:1,id:diamond_leggings},{Count:1,id:diamond_chestplate},{Count:1,id:diamond_helmet}],HandDropChances:[1.0f,1.0f]}
+/gamemode survival
+/gamemode creative

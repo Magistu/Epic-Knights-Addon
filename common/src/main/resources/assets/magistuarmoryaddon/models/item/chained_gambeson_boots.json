@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/chained_gambeson_boots",
+        "layer1": "magistuarmoryaddon:item/chained_gambeson_boots_overlay"
+    }
+}

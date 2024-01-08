@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gi ",
+    " si",
+    " p "
+  ],
+  "key": {
+    "i": {
+      "tag": "c:steel_ingots"
+    },
+    "g": {
+      "tag": "c:steel_plates"
+    },
+    "s": {
+      "tag": "c:wooden_rods"
+    },
+    "p": {
+      "item": "magistuarmory:pole"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_english_poleaxe",
+    "count": 1
+  }
+}

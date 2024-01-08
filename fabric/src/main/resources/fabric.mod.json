@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "magistuarmoryaddon",
+  "version": "1.3",
+  "name": "Epic Knights: Addon",
+  "description": "Adds more medieval stuff to the game",
+  "authors": [
+    "Magistu", "SteveMc", "hoetistic", "theblackchimera", "Santusio", "SuperSus890", "Flavius_Blue", "Desperate_bork", "caballerohospitalario", "alhendahu", "minucios"
+  ],
+  "contributors": [
+    
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/epic-knights-addon",
+    "sources": "https://github.com/Magistu/Knightly-Armory-Addon",
+    "discord": "https://discord.gg/H9CVcXEmYe"
+  },
+  "license": "MIT",
+  "icon": "assets/magistuarmoryaddon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.magistuarmory.addon.fabric.EpicKnightsAddonFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.0",
+    "magistuarmory": ">=8.3"
+  }
+}

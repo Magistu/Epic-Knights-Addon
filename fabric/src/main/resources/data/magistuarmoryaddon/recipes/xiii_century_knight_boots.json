@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "   ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:chainmail_boots"
+    },
+    "b": {
+      "item": "magistuarmory:steel_chainmail"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:xiii_century_knight_boots",
+    "count": 1
+  }
+}

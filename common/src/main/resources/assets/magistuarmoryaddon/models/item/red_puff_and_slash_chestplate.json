@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/red_puff_and_slash_chestplate",
+        "layer1": "magistuarmoryaddon:item/red_puff_and_slash_chestplate_overlay"
+    }
+}

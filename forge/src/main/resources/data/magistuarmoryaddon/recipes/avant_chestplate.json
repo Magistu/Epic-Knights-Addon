@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:ingots/steel"
+    },
+    "a": {
+      "item": "magistuarmory:small_steel_plate"
+    },
+    "c": {
+      "item": "magistuarmory:halfarmor_chestplate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:avant_chestplate",
+    "count": 1
+  }
+}

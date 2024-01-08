@@ -1,0 +1,330 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2023-10-10 21:13:10
+Description: Rendering entity in world
+
+java.lang.NullPointerException: Cannot assign field "attackTime" because "arg" is null
+	at net.minecraft.client.model.EntityModel.copyPropertiesTo(EntityModel.java:29) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HumanoidModel.copyPropertiesTo(HumanoidModel.java:372) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at com.magistuarmory.client.render.entity.layer.ArmorDecorationLayer.renderPiece(ArmorDecorationLayer.java:91) ~[1.20.2-epic-knights-forge-8.5.0.jar%23202!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.magistuarmory.client.render.entity.layer.ArmorDecorationLayer.render(ArmorDecorationLayer.java:77) ~[1.20.2-epic-knights-forge-8.5.0.jar%23202!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.magistuarmory.client.render.entity.layer.ArmorDecorationLayer.render(ArmorDecorationLayer.java:38) ~[1.20.2-epic-knights-forge-8.5.0.jar%23202!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:135) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.player.PlayerRenderer.render(PlayerRenderer.java:64) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.player.PlayerRenderer.render(PlayerRenderer.java:45) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:141) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.method_29977(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at com.mojang.blaze3d.systems.RenderSystem.runAsFancy(RenderSystem.java:1191) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventory(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventoryFollowsMouse(InventoryScreen.java:130) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.renderBg(CreativeModeInventoryScreen.java:707) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.renderBackground(AbstractContainerScreen.java:154) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.render(Screen.java:118) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.render(AbstractContainerScreen.java:92) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen.render(EffectRenderingInventoryScreen.java:32) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.render(CreativeModeInventoryScreen.java:631) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.renderWithTooltip(Screen.java:109) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreenInternal(ForgeHooksClient.java:390) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:384) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:966) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.model.EntityModel.copyPropertiesTo(EntityModel.java:29) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HumanoidModel.copyPropertiesTo(HumanoidModel.java:372) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at com.magistuarmory.client.render.entity.layer.ArmorDecorationLayer.renderPiece(ArmorDecorationLayer.java:91) ~[1.20.2-epic-knights-forge-8.5.0.jar%23202!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.magistuarmory.client.render.entity.layer.ArmorDecorationLayer.render(ArmorDecorationLayer.java:77) ~[1.20.2-epic-knights-forge-8.5.0.jar%23202!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.magistuarmory.client.render.entity.layer.ArmorDecorationLayer.render(ArmorDecorationLayer.java:38) ~[1.20.2-epic-knights-forge-8.5.0.jar%23202!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:135) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.player.PlayerRenderer.render(PlayerRenderer.java:64) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.player.PlayerRenderer.render(PlayerRenderer.java:45) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:141) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.method_29977(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at com.mojang.blaze3d.systems.RenderSystem.runAsFancy(RenderSystem.java:1191) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventory(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventoryFollowsMouse(InventoryScreen.java:130) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.renderBg(CreativeModeInventoryScreen.java:707) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.renderBackground(AbstractContainerScreen.java:154) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.render(Screen.java:118) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.render(AbstractContainerScreen.java:92) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen.render(EffectRenderingInventoryScreen.java:32) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.render(CreativeModeInventoryScreen.java:631) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.renderWithTooltip(Screen.java:109) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreenInternal(ForgeHooksClient.java:390) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:384) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+-- Entity being rendered --
+Details:
+	Entity Type: minecraft:player (net.minecraft.client.player.LocalPlayer)
+	Entity ID: 2
+	Entity Name: Dev
+	Entity's Exact location: -506.22, 71.23, 107.04
+	Entity's Block location: World: (-507,71,107), Section: (at 5,7,11 in -32,4,6; chunk contains blocks -512,-64,96 to -497,319,111), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:141) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.method_29977(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at com.mojang.blaze3d.systems.RenderSystem.runAsFancy(RenderSystem.java:1191) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventory(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventoryFollowsMouse(InventoryScreen.java:130) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.renderBg(CreativeModeInventoryScreen.java:707) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.renderBackground(AbstractContainerScreen.java:154) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.render(Screen.java:118) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.render(AbstractContainerScreen.java:92) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen.render(EffectRenderingInventoryScreen.java:32) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.render(CreativeModeInventoryScreen.java:631) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.renderWithTooltip(Screen.java:109) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreenInternal(ForgeHooksClient.java:390) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:384) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:966) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+-- Renderer details --
+Details:
+	Assigned renderer: net.minecraft.client.renderer.entity.player.PlayerRenderer@3592044
+	Location: 0.00,0.00,0.00 - World: (0,0,0), Section: (at 0,0,0 in 0,0,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Rotation: 0.0
+	Delta: 1.0
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:141) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.method_29977(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at com.mojang.blaze3d.systems.RenderSystem.runAsFancy(RenderSystem.java:1191) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventory(InventoryScreen.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.InventoryScreen.renderEntityInInventoryFollowsMouse(InventoryScreen.java:130) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.renderBg(CreativeModeInventoryScreen.java:707) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.renderBackground(AbstractContainerScreen.java:154) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.render(Screen.java:118) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.render(AbstractContainerScreen.java:92) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen.render(EffectRenderingInventoryScreen.java:32) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.render(CreativeModeInventoryScreen.java:631) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.renderWithTooltip(Screen.java:109) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreenInternal(ForgeHooksClient.java:390) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:384) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23194%23201!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:966) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen
+	Mouse location: Scaled: (305, 197). Absolute: (611.000000, 395.000000)
+	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2.000000
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:966) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['Dev'/2, l='ClientLevel', x=-506.22, y=71.23, z=107.04]]
+	Chunk stats: 961, 609
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,63,32), Section: (at 0,15,0 in 0,3,2; chunk contains blocks 0,-64,32 to 15,319,47), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 71956 game time, 71956 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.fillReportDetails(ClientLevel.java:448) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.fillReport(Minecraft.java:2394) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:798) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23195!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, mod_resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.2
+	Minecraft Version ID: 1.20.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.7, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 2138984960 bytes (2039 MiB) / 3514826752 bytes (3352 MiB) up to 8552185856 bytes (8156 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i7-13700KF
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 3.42
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce GTX 1060 3GB
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 3072.00
+	Graphics card #0 deviceId: 0x1c02
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3623
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 50189.41
+	Virtual memory used (MB): 24217.72
+	Swap memory total (MB): 17580.71
+	Swap memory used (MB): 265.86
+	JVM Flags: 0 total; 
+	JVM uptime in seconds: 94.843
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.2+13
+	Backend API: NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 536.23, NVIDIA Corporation
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: en_us
+	Locale: ru_RU
+	CPU: 24x 13th Gen Intel(R) Core(TM) i7-13700KF
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/2, l='ServerLevel[New World]', x=-506.22, y=71.23, z=107.04]]
+	Data Packs: vanilla, mod:cloth_config (incompatible), mod:forge, mod:architectury (incompatible), mod:magistuarmory (incompatible), mod:magistuarmoryaddon (incompatible), mod:generated_f6cd834 (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-patched-0.8.5.10.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.2.0.jar unprotect PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar ForgeLoomMixinRemapperInjector TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.2-48.0.0-minecraft-merged-project-@forg|Minecraft                     |minecraft                     |1.20.2              |DONE      |Manifest: NOSIGNATURE
+		7160046409673966875.jar                           |generated_f6cd834             |generated_f6cd834             |1                   |DONE      |Manifest: NOSIGNATURE
+		cloth-config-forge-12.0.109.jar                   |Cloth Config v12 API          |cloth_config                  |12.0.109            |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |48.0.0              |DONE      |Manifest: NOSIGNATURE
+		architectury-forge-10.0.8.jar                     |Architectury                  |architectury                  |10.0.8              |DONE      |Manifest: NOSIGNATURE
+		1.20.2-epic-knights-forge-8.5.0.jar               |Epic Knights Mod              |magistuarmory                 |8.5.0+1.20.2-forge  |DONE      |Manifest: NOSIGNATURE
+		main                                              |Epic Knights: Addon           |magistuarmoryaddon            |1.0+1.20.2-forge    |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 667b0c73-0665-4aa4-b175-11c78629a6b1
+	FML: 48.0
+	Forge: net.minecraftforge:48.0.0

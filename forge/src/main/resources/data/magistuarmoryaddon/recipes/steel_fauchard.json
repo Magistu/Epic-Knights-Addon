@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " gu",
+    " si",
+    " p "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "g": {
+      "tag": "forge:plates/steel"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    },
+    "p": {
+      "item": "magistuarmory:pole"
+    },
+    "u": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_fauchard",
+    "count": 1
+  }
+}

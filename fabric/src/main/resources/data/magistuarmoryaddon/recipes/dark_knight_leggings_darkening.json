@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:knight_leggings"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:dark_knight_leggings",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bab",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:tablet_helmet"
+    },
+    "b": {
+      "item": "magistuarmory:steel_plate"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:late_greathelm",
+    "count": 1
+  }
+}

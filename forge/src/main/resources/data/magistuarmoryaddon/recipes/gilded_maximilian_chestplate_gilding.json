@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:maximilian_chestplate"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_maximilian_chestplate",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "   ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:gambeson_boots"
+    },
+    "b": {
+      "item": "magistuarmory:small_steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:chained_gambeson_boots",
+    "count": 1
+  }
+}

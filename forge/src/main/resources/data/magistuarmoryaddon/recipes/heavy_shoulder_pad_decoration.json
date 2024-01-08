@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bab",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:leather_strip"
+    },
+    "b": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:heavy_shoulder_pad_decoration",
+    "count": 1
+  }
+}

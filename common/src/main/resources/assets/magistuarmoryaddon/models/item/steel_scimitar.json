@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "magistuarmoryaddon:item/steel_scimitar"
+	},
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "magistuarmoryaddon:item/steel_scimitar_blocking"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-50, -90, 0],
+			"translation": [0, 12.5, 0.2],
+			"scale": [1.875, 1.875, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-50, 90, 0],
+			"translation": [0, 12.5, 0.2],
+			"scale": [1.875, 1.875, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 30],
+			"translation": [1.13, 10, 1.13],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -30],
+			"translation": [1.13, 10, 1.13],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"translation": [4.25, 4.25, 0],
+			"scale": [0.9375, 0.9375, 0.46875]
+		},
+		"gui": {
+			"translation": [0, 1.25, 0]
+		},
+		"fixed": {
+			"translation": [4.25, 4, 0],
+			"scale": [1.5, 1.5, 1]
+		}
+	}
+}

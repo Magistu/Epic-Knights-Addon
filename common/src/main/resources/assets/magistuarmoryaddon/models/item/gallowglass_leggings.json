@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/gallowglass_leggings",
+        "layer1": "magistuarmoryaddon:item/gallowglass_leggings_overlay"
+    }
+}

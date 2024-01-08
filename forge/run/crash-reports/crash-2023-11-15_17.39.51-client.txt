@@ -1,0 +1,183 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2023-11-15 17:39:51
+Description: Rendering overlay
+
+java.lang.NoSuchMethodError: 'net.minecraft.client.model.geom.ModelPart net.minecraft.client.model.geom.ModelPart.m_171324_(java.lang.String)'
+	at net.minecraft.client.model.HumanoidModel.handler$zbe000$initBend(HumanoidModel.java:538) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:playerAnimator-common.mixins.json:BipedEntityModelMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HumanoidModel.<init>(HumanoidModel.java:57) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:playerAnimator-common.mixins.json:BipedEntityModelMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HumanoidModel.<init>(HumanoidModel.java:45) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:playerAnimator-common.mixins.json:BipedEntityModelMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.AbstractZombieModel.<init>(AbstractZombieModel.java:8) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.ZombieModel.<init>(ZombieModel.java:8) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.DrownedModel.<init>(DrownedModel.java:20) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.DrownedRenderer.<init>(DrownedRenderer.java:18) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderers.method_32174(EntityRenderers.java:162) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectMap.lambda$forEach$0(Object2ObjectMap.java:209) ~[fastutil-8.5.12.jar%23178!/:?] {}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap$MapEntrySet.fastForEach(Object2ObjectOpenHashMap.java:1004) ~[fastutil-8.5.12.jar%23178!/:?] {}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectMap.forEach(Object2ObjectMap.java:211) ~[fastutil-8.5.12.jar%23178!/:?] {}
+	at net.minecraft.client.renderer.entity.EntityRenderers.createEntityRenderers(EntityRenderers.java:160) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.onResourceManagerReload(EntityRenderDispatcher.java:369) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:playerAnimator-common.mixins.json:firstPerson.EntityRenderDispatcherMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.packs.resources.ResourceManagerReloadListener.method_29490(ResourceManagerReloadListener.java:15) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.method_18365(SimpleReloadInstance.java:69) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:mixin,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:130) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:115) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1171) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.model.HumanoidModel.handler$zbe000$initBend(HumanoidModel.java:538) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:playerAnimator-common.mixins.json:BipedEntityModelMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HumanoidModel.<init>(HumanoidModel.java:57) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:playerAnimator-common.mixins.json:BipedEntityModelMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HumanoidModel.<init>(HumanoidModel.java:45) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:playerAnimator-common.mixins.json:BipedEntityModelMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.AbstractZombieModel.<init>(AbstractZombieModel.java:8) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.ZombieModel.<init>(ZombieModel.java:8) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.DrownedModel.<init>(DrownedModel.java:20) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.DrownedRenderer.<init>(DrownedRenderer.java:18) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderers.method_32174(EntityRenderers.java:162) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectMap.lambda$forEach$0(Object2ObjectMap.java:209) ~[fastutil-8.5.12.jar%23178!/:?] {}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap$MapEntrySet.fastForEach(Object2ObjectOpenHashMap.java:1004) ~[fastutil-8.5.12.jar%23178!/:?] {}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectMap.forEach(Object2ObjectMap.java:211) ~[fastutil-8.5.12.jar%23178!/:?] {}
+	at net.minecraft.client.renderer.entity.EntityRenderers.createEntityRenderers(EntityRenderers.java:160) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.onResourceManagerReload(EntityRenderDispatcher.java:369) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:playerAnimator-common.mixins.json:firstPerson.EntityRenderDispatcherMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.packs.resources.ResourceManagerReloadListener.method_29490(ResourceManagerReloadListener.java:15) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.method_18365(SimpleReloadInstance.java:69) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:156) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:unprotect:A,re:mixin,pl:unprotect:A,re:classloading,pl:unprotect:A}
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:130) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:computing_frames,pl:accesstransformer:B,pl:unprotect:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraftforge.client.loading.ForgeLoadingOverlay
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:958) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:781) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:221) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.2-48.0.0.jar%23105!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23110!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23193!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: No
+	Packs: vanilla
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.2
+	Minecraft Version ID: 1.20.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.7, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 1447978256 bytes (1380 MiB) / 2545942528 bytes (2428 MiB) up to 8552185856 bytes (8156 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i7-13700KF
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 3.42
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce GTX 1060 3GB
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 3072.00
+	Graphics card #0 deviceId: 0x1c02
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3623
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 59202.79
+	Virtual memory used (MB): 26540.22
+	Swap memory total (MB): 26594.09
+	Swap memory used (MB): 546.13
+	JVM Flags: 0 total; 
+	JVM uptime in seconds: 16.091
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.2+13
+	Backend API: NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 536.23, NVIDIA Corporation
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: en_us
+	Locale: ru_RU
+	CPU: 24x 13th Gen Intel(R) Core(TM) i7-13700KF
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-patched-0.8.5.10.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.2.0.jar unprotect PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.2-48.0.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar ForgeLoomMixinRemapperInjector TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.2-48.0.0-minecraft-merged-project-@forg|Minecraft                     |minecraft                     |1.20.2              |NONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |48.0.0              |NONE      |Manifest: NOSIGNATURE

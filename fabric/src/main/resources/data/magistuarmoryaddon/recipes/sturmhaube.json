@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "bab",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:cervelliere"
+    },
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    },
+    "d": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:sturmhaube",
+    "count": 1
+  }
+}

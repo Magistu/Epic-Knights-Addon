@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "bab",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:pantyhose"
+    },
+    "b": {
+      "item": "magistuarmory:steel_chainmail"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:xiii_century_knight_leggings",
+    "count": 1
+  }
+}

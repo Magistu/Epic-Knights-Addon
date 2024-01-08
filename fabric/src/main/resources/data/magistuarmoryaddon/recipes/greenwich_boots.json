@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " a ",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "magistuarmory:woolen_fabric"
+    },
+    "c": {
+      "tag": "c:steel_nuggets"
+    },
+    "d": {
+      "item": "magistuarmory:knight_boots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:greenwich_boots",
+    "count": 1
+  }
+}

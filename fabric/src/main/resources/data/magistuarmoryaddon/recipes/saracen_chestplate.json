@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "cbc",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "magistuarmory:chainmail_chestplate"
+    },
+    "c": {
+      "item": "magistuarmory:woolen_fabric"
+    },
+    "d": {
+      "item": "magistuarmory:leather_strip"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:saracen_chestplate",
+    "count": 1
+  }
+}

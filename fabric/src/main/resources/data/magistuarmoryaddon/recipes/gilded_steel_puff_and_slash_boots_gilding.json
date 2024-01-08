@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmoryaddon:steel_puff_and_slash_boots"
+    },
+    "addition": {
+        "tag": "c:gold_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_steel_puff_and_slash_boots",
+        "count": 1
+    }
+}

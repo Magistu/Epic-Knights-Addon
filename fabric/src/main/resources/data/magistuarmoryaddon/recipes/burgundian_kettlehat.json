@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bab",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:steel_nugget"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    },
+    "c": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:burgundian_kettlehat",
+    "count": 1
+  }
+}

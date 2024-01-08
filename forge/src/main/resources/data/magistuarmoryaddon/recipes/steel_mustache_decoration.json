@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_mustache_decoration",
+    "count": 1
+  }
+}

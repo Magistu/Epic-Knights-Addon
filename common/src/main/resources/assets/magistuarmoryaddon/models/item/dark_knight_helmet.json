@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"overrides": [
+		{
+			"predicate": {
+				"magistuarmoryaddon:has_plume": 1
+			},
+			"model": "magistuarmoryaddon:item/dark_knight_helmet_with_plume"
+		}
+	],
+	"textures": {
+		"layer0": "magistuarmoryaddon:item/empty",
+		"layer1": "magistuarmoryaddon:item/dark_knight_helmet_overlay"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 1, 0]
+		},
+		"fixed": {
+			"translation": [0, 1, 0]
+		}
+	}
+}

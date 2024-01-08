@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmoryaddon:dark_maximilian_boots"
+    },
+    "addition": {
+        "tag": "c:silver_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:silvered_dark_maximilian_boots",
+        "count": 1
+    }
+}

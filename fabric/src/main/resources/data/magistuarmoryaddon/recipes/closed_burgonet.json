@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bab",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:late_burgonet"
+    },
+    "b": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:closed_burgonet",
+    "count": 1
+  }
+}
