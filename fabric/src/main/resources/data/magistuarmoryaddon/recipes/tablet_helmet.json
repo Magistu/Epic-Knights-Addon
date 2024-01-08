@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    },
+    "b": {
+      "item": "magistuarmory:steel_chainmail"
+    },
+    "c": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:tablet_helmet",
+    "count": 1
+  }
+}

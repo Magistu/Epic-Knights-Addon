@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "cac",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:cuirassier_chestplate"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    },
+    "c": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:heavy_cuirassier_chestplate",
+    "count": 1
+  }
+}

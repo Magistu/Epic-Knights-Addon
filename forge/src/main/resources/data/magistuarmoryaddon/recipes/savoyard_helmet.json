@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " ab",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:cuirassier_helmet"
+    },
+    "b": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:savoyard_helmet",
+    "count": 1
+  }
+}

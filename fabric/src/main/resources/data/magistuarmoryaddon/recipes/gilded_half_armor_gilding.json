@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:halfarmor_chestplate"
+    },
+    "addition": {
+        "tag": "c:gold_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_half_armor",
+        "count": 1
+    }
+}

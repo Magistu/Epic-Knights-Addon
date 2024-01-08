@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:grand_bascinet"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_grand_bascinet",
+        "count": 1
+    }
+}

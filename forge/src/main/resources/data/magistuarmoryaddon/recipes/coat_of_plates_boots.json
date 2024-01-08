@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " b ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:chainmail_boots"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:coat_of_plates_boots",
+    "count": 1
+  }
+}

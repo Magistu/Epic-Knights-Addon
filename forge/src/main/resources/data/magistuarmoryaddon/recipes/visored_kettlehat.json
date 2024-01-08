@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " a ",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:kettlehat"
+    },
+    "b": {
+      "item": "magistuarmory:steel_plate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:visored_kettlehat",
+    "count": 1
+  }
+}

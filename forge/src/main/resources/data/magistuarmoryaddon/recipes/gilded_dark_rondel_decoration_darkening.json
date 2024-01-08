@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmoryaddon:gilded_rondel_decoration"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_dark_rondel_decoration",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:steel_chainmail"
+    },
+    "b": {
+      "item": "magistuarmory:face_helmet"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:cuman_captain_helmet",
+    "count": 1
+  }
+}

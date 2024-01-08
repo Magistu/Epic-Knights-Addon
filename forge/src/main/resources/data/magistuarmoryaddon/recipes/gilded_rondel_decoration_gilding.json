@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:rondel_decoration"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_rondel_decoration",
+        "count": 1
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/coat_of_plates_boots",
+        "layer1": "magistuarmoryaddon:item/coat_of_plates_boots_overlay"
+    }
+}

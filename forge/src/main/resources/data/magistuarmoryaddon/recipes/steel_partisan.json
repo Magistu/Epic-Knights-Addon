@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NiN",
+        " s ",
+        " p "
+    ],
+    "key": {
+        "p": {
+            "item": "magistuarmory:pole"
+        },
+        "i": {
+            "item": "magistuarmory:steel_ingot"
+        },
+        "s": {
+            "tag": "forge:rods/wooden"
+        },
+        "N": {
+            "item": "magistuarmory:steel_nugget"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:steel_partisan",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii ",
+    "rri",
+    "r  "
+  ],
+  "key": {
+    "i": {
+      "tag": "c:steel_ingots"
+    },
+    "r": {
+      "tag": "c:wooden_rods"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_scythe",
+    "count": 1
+  }
+}
