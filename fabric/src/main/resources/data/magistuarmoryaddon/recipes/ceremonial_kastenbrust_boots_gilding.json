@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:kastenbrust_boots"
+    },
+    "addition": {
+        "tag": "c:gold_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:ceremonial_kastenbrust_boots",
+        "count": 1
+    }
+}

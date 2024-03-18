@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/dark_heavy_brigandine_chestplate",
+        "layer1": "magistuarmoryaddon:item/dark_heavy_brigandine_chestplate_overlay"
+    }
+}

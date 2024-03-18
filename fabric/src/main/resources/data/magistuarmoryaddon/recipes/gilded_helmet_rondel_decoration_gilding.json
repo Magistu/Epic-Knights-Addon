@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmoryaddon:helmet_rondel_decoration"
+    },
+    "addition": {
+        "tag": "c:gold_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_helmet_rondel_decoration",
+        "count": 1
+    }
+}

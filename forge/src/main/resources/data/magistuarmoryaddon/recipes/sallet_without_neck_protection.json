@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " a ",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:barbute"
+    },
+    "b": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:sallet_without_neck_protection",
+    "count": 1
+  }
+}

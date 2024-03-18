@@ -13,7 +13,7 @@
       "tag": "forge:nuggets/steel"
     },
     "c": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

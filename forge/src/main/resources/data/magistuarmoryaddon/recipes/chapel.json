@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "item": "magistuarmory:woolen_fabric"
+      "tag": "magistuarmory:woolen_fabrics"
     },
     "b": {
       "tag": "forge:ingots/steel"
     },
     "c": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

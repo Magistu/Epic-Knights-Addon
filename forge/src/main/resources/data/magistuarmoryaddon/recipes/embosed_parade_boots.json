@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "b b",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/steel"
+    },
+    "b": {
+      "tag": "forge:plates/steel"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:embosed_parade_boots",
+    "count": 1
+  }
+}

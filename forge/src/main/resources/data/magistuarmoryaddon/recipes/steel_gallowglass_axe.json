@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "bb ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:poles"
+    },
+    "b": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_gallowglass_axe",
+    "count": 1
+  }
+}

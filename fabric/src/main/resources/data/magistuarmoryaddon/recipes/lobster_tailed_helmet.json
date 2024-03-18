@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "bab",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:cervelliere"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:lobster_tailed_helmet",
+    "count": 1
+  }
+}

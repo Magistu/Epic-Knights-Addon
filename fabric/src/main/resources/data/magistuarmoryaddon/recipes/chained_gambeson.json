@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "item": "magistuarmory:steel_ring"
+      "tag": "magistuarmory:rings/steel"
     },
     "b": {
-      "item": "magistuarmory:small_steel_plate"
+      "tag": "magistuarmory:small_plates/steel"
     },
     "c": {
       "item": "magistuarmory:gambeson_chestplate"

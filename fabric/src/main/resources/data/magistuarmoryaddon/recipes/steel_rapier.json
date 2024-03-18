@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  N",
+        "Ni ",
+        "sN "
+    ],
+    "key": {
+        "s": {
+            "item": "magistuarmory:steel_stylet"
+        },
+        "i": {
+            "item": "magistuarmory:steel_ingot"
+        },
+        "N": {
+            "item": "magistuarmory:steel_nugget"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:steel_rapier",
+        "count": 1
+    }
+}

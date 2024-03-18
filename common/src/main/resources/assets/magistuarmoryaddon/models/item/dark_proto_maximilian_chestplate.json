@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/dark_proto_maximilian_chestplate",
+        "layer1": "magistuarmoryaddon:item/dark_proto_maximilian_chestplate_overlay"
+    }
+}

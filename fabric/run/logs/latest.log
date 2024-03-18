@@ -1,9 +1,18 @@
-[13:18:20] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.21
-[13:18:20] [main/INFO] (FabricLoader) Loading 53 mods:
+[19:41:02] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.21
+[19:41:02] [main/INFO] (FabricLoader) Loading 62 mods:
 	- architectury 6.5.85
 	- cloth-basic-math 0.6.1
 	- cloth-config 8.3.103
 	- fabric-api 0.76.0+1.19.2
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.41+df3654b390
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-networking-v0 0.3.28+df3654b390
+	   |-- fabric-renderer-registries-v1 3.2.24+df3654b390
+	   \-- fabric-rendering-v0 1.1.27+df3654b390
 	- fabric-api-base 0.4.15+8f4e8eb390
 	- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
 	- fabric-biome-api-v1 9.1.1+16f1e31390
@@ -47,14 +56,14 @@
 	- fabric-transfer-api-v1 2.1.6+413cbbc790
 	- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
 	- fabricloader 0.14.21
-	- generated_8633322 1.0.0
+	- generated_2580bac 1.0.0
 	- java 17
 	- magistuarmory 8.10
-	- magistuarmoryaddon 1.1
+	- magistuarmoryaddon 1.3
 	- minecraft 1.19.2
 	- modmenu 4.1.2
-[13:18:21] [main/ERROR] (FabricLoader) Uncaught exception in thread "main"
-java.lang.RuntimeException: Failed to read accessWidener file from mod cloth-config
+[19:41:02] [main/ERROR] (FabricLoader) Uncaught exception in thread "main"
+java.lang.RuntimeException: Failed to read accessWidener file from mod fabric-resource-loader-v0
 	at net.fabricmc.loader.impl.FabricLoaderImpl.loadAccessWideners(FabricLoaderImpl.java:480) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:151) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.21.jar:?]

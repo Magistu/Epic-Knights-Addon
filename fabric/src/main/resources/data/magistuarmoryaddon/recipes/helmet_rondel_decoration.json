@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "a a",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:helmet_rondel_decoration",
+    "count": 1
+  }
+}

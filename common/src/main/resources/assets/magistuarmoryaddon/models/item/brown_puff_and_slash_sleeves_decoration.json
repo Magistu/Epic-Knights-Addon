@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/brown_puff_and_slash_sleeves_decoration",
+        "layer1": "magistuarmoryaddon:item/brown_puff_and_slash_sleeves_decoration_overlay"
+    }
+}

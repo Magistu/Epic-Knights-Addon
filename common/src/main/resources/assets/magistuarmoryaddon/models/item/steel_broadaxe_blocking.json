@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "magistuarmoryaddon:item/steel_broadaxe"
+	},
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "magistuarmoryaddon:item/steel_broadaxe_blocking"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-42, -145, -8],
+			"translation": [-14.25, 15.25, -0.25],
+			"scale": [2.8125, 2.8125, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-36, 36, 2],
+			"translation": [-13, 16.25, -0.25],
+			"scale": [2.8125, 2.8125, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, -23, 122],
+			"translation": [-14.8, 9.75, -1.55],
+			"scale": [2.25, 2.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-150, 23, 58],
+			"translation": [-14.8, 9.75, -1.55],
+			"scale": [2.25, 2.25, 1]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.9375, 0.9375, 0.46875]
+		},
+		"gui": {
+			"translation": [6, 5, 0],
+			"scale": [1.6, 1.6, 1]
+		},
+		"fixed": {
+			"translation": [5, 6, 0],
+			"scale": [1.6, 1.6, 1]
+		}
+	}
+}

@@ -5,7 +5,7 @@ Time: 2023-11-14 15:53:08
 Description: Initializing game
 
 java.lang.RuntimeException: null
-	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:337) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraftforge.Registry.GameData.postRegisterEvents(GameData.java:337) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
 	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
 	at net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
 	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
@@ -45,7 +45,7 @@ java.lang.RuntimeException: null
 		at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
 		at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:344) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
 		at net.minecraftforge.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:337) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
-		at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:351) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
+		at net.minecraftforge.Registry.GameData.postRegisterEvents(GameData.java:351) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
 		at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
 		at net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
 		at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
@@ -79,11 +79,11 @@ java.lang.RuntimeException: null
 		at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[?:?] {}
 	Caused by: java.lang.NoSuchMethodError: 'net.minecraft.sounds.SoundEvent net.minecraft.sounds.SoundEvent.m_262824_(net.minecraft.resources.ResourceLocation)'
 		at net.bettercombat.forge.BetterCombatForge.lambda$registerSounds$2(BetterCombatForge.java:37) ~[bettercombat-forge-1.8.1+1.20.2.jar%23196!/:?] {re:classloading}
-		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading}
-		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:eventbus:A,pl:unprotect:A}
-		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading}
-		at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:328) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading}
-		at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:eventbus:B}
+		at net.minecraftforge.Registry.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading}
+		at net.minecraftforge.Registry.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:eventbus:A,pl:unprotect:A}
+		at net.minecraftforge.Registry.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading}
+		at net.minecraftforge.Registry.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:328) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading}
+		at net.minecraftforge.Registry.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:eventbus:B}
 		at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%23109!/:?] {}
 		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23109!/:?] {}
 		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23109!/:?] {}
@@ -97,7 +97,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Render thread
 Stacktrace:
-	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:337) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
+	at net.minecraftforge.Registry.GameData.postRegisterEvents(GameData.java:337) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
 	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar%23198%23205!/:?] {re:classloading,pl:unprotect:A}
 	at net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}
 	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209) ~[fmlcore-1.20.2-48.0.0.jar%23203!/:?] {}

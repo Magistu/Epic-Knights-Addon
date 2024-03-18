@@ -13,7 +13,7 @@
       "item": "minecraft:leather"
     },
     "c": {
-      "item": "magistuarmory:leather_strip"
+      "tag": "magistuarmory:leather_strips"
     },
     "d": {
       "tag": "forge:ingots/steel"

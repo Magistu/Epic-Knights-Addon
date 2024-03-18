@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:lamellar_rows/steel"
+    },
+    "b": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "c": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:scale_helmet",
+    "count": 1
+  }
+}

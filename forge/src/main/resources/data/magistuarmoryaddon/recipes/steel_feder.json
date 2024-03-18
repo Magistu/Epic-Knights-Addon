@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ac ",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_shortsword"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_feder",
+    "count": 1
+  }
+}

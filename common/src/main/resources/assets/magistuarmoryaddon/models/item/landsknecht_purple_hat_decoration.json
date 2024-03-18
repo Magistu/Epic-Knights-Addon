@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/landsknecht_purple_hat_decoration",
+        "layer1": "magistuarmoryaddon:item/landsknecht_purple_hat_decoration_overlay"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " bb",
+    "b  ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:hilts"
+    },
+    "b": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_cutlass",
+    "count": 1
+  }
+}

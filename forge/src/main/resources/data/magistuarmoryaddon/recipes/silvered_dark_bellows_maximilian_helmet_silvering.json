@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:dark_bellows_maximilian_helmet"
+    },
+    "addition": {
+        "tag": "forge:ingots/silver"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet",
+        "count": 1
+    }
+}

@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "item": "magistuarmory:leather_strip"
+      "tag": "magistuarmory:leather_strips"
     },
     "b": {
-      "tag": "magistuarmory:small_steel_plate"
+      "tag": "magistuarmory:small_steel_plates"
     },
     "c": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

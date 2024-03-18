@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "cdc",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:rings/steel"
+    },
+    "b": {
+      "tag": "forge:ingots/steel"
+    },
+    "c": {
+      "tag": "forge:plates/steel"
+    },
+    "d": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:late_burgonet",
+    "count": 1
+  }
+}

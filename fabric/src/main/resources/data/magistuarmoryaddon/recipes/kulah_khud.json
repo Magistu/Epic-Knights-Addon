@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "dcd",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_ingots"
+    },
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
+    "c": {
+      "item": "magistuarmoryaddon:tablet_helmet"
+    },
+    "d": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:kulah_khud",
+    "count": 1
+  }
+}

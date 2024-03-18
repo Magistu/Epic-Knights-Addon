@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ba",
+    "bbb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:golden_necklace_decoration"
+    },
+    "b": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:golden_cross_necklace_decoration",
+    "count": 1
+  }
+}

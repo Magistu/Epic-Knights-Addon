@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/purple_puff_and_slash_leggings",
+        "layer1": "magistuarmoryaddon:item/purple_puff_and_slash_leggings_overlay"
+    }
+}

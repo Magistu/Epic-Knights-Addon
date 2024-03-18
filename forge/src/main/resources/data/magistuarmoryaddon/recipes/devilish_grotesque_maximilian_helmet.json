@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "cac",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:barbute"
+    },
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    },
+    "d": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:devilish_grotesque_maximilian_helmet",
+    "count": 1
+  }
+}

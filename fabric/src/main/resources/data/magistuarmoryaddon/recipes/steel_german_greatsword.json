@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "  i",
-        "ns ",
-        "hn "
+        " i ",
+        "nsn",
+        " h "
     ],
     "key": {
         "s": {
@@ -16,7 +16,7 @@
             "tag": "c:steel_ingots"
         },
         "h": {
-            "item": "magistuarmory:hilt"
+            "tag": "magistuarmory:hilts"
         }
     },
     "result": {

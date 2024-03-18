@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " b ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:tablet_helmet"
+    },
+    "b": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:early_greathelm",
+    "count": 1
+  }
+}

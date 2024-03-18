@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ii ",
+        "is ",
+        " p "
+    ],
+    "key": {
+        "p": {
+            "tag": "magistuarmory:poles"
+        },
+        "i": {
+            "item": "magistuarmory:steel_ingot"
+        },
+        "s": {
+            "tag": "c:wooden_rods"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:steel_battleaxe",
+        "count": 1
+    }
+}

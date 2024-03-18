@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " u ",
+    "gu ",
     "gsu",
     " p "
   ],
@@ -13,7 +13,7 @@
       "tag": "c:wooden_rods"
     },
     "p": {
-      "item": "magistuarmory:pole"
+      "tag": "magistuarmory:poles"
     },
     "u": {
       "tag": "c:steel_nuggets"

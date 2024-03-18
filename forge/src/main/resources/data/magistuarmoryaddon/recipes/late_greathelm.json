@@ -10,7 +10,7 @@
       "item": "magistuarmoryaddon:tablet_helmet"
     },
     "b": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "forge:plates/steel"
     },
     "c": {
       "tag": "forge:ingots/steel"

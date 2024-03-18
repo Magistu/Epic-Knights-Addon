@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iN ",
+        "s  "
+    ],
+    "key": {
+        "s": {
+            "item": "magistuarmory:steel_shortsword"
+        },
+        "i": {
+            "item": "magistuarmory:steel_ingot"
+        },
+        "N": {
+            "item": "magistuarmory:steel_nugget"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:steel_messer_sword",
+        "count": 1
+    }
+}

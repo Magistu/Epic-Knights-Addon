@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:dark_chestplate"
+    },
+    "addition": {
+        "tag": "c:silver_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:silvered_dark_chestplate",
+        "count": 1
+    }
+}

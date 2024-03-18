@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_plates"
+    },
+    "b": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:early_cabasset",
+    "count": 1
+  }
+}

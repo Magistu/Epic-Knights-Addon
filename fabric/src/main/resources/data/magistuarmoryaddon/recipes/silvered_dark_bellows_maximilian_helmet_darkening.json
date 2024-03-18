@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "magistuarmory:silvered_bellows_maximilian_helmet"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet",
+        "count": 1
+    }
+}

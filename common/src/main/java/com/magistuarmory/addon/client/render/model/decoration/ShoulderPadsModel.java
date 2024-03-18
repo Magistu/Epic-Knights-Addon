@@ -19,9 +19,9 @@ public class ShoulderPadsModel
 
 		PartDefinition body = partdefinition.addOrReplaceChild("body", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));
 
-		PartDefinition right_arm = partdefinition.addOrReplaceChild("right_arm", CubeListBuilder.create().texOffs(4, 13).mirror().addBox(-3.5F, -2.0F, -2.0F, 6.0F, 6.0F, 4.0F, new CubeDeformation(1.1F)).mirror(false), PartPose.offset(-5.0F, 2.0F, 0.0F));
+		PartDefinition right_arm = partdefinition.addOrReplaceChild("right_arm", CubeListBuilder.create().texOffs(4, 13).mirror().addBox(-3.3F, -2.0F, -2.0F, 6.0F, 6.0F, 4.0F, new CubeDeformation(1.1F)).mirror(false), PartPose.offset(-5.0F, 2.0F, 0.0F));
 
-		PartDefinition left_arm = partdefinition.addOrReplaceChild("left_arm", CubeListBuilder.create().texOffs(4, 3).addBox(-2.5F, -2.0F, -2.0F, 6.0F, 6.0F, 4.0F, new CubeDeformation(1.1F)), PartPose.offset(5.0F, 2.0F, 0.0F));
+		PartDefinition left_arm = partdefinition.addOrReplaceChild("left_arm", CubeListBuilder.create().texOffs(4, 13).addBox(-2.7F, -2.0F, -2.0F, 6.0F, 6.0F, 4.0F, new CubeDeformation(1.1F)), PartPose.offset(5.0F, 2.0F, 0.0F));
 
 		PartDefinition right_leg = partdefinition.addOrReplaceChild("right_leg", CubeListBuilder.create(), PartPose.offset(-1.9F, 12.0F, 0.0F));
 

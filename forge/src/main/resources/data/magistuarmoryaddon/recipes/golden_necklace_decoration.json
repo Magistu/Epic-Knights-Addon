@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "aaa",
     "a a",
-    " a ",
-    "   "
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "minecraft:gold_nugget"
+      "tag": "forge:nuggets/gold"
     }
   },
   "result": {

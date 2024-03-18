@@ -1,10 +1,10 @@
-[Architectury Transformer] Architectury Runtime 5.2.80
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar
+[Architectury Transformer] Architectury Runtime 5.2.81
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 103 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\fabric-loom\1.19.2\forge\1.19.2-43.2.14\forge-client-extra.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.14.24\e0531c8dcd0687a1c0ed9804d8031e2f83be3083\fabric-loader-0.14.24.jar
+[Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.15.7\809a1a6b0f4bcca07e3dffc01f8a62265db3ff5d\fabric-loader-0.15.7.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.14\be747abe79e24bde3df827a226ac3a87f900556c\javafmllanguage-1.19.2-43.2.14.jar
@@ -105,60 +105,150 @@
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-forge\6.5.85\37760c2b6445973b5df578f53181b5238cf4528c\architectury-forge-6.5.85.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\blue.endless\jankson\1.2.0\3a596049034f2952c0b2d40ca41f9b98856d5fb4\jankson-1.2.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.27\359d62567480b07a679dc643f82fc926b100eed5\snakeyaml-1.27.jar
-[Architectury Transformer] Read classpath in 1.050 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar to C:\Users\lut8\AppData\Local\Temp\7763913485851978003.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5b3f61ff
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@3e2059ae
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@398dada8
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7cb502c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@275bf9b3
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@1b8a29df
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@4fbe37eb
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@12a94400
-[Architectury Transformer DEBUG] Transforming from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar to C:\Users\lut8\AppData\Local\Temp\7763913485851978003.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer] Read classpath in 1.090 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar to C:\Users\lut8\AppData\Local\Temp\7796158856843615406.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@3b65e559
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@bae47a0
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@74a9c4b0
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@85ec632
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@1c05a54d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@65ef722a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@5fd9b663
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@214894fc
+[Architectury Transformer DEBUG] Transforming from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar to C:\Users\lut8\AppData\Local\Temp\7796158856843615406.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd678@43b9fd5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/EpicKnightsAddon with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/AddonModels with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ParadeBurgonetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MilaneseArmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LobsterTailedHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/UnderarmorModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletWithoutNeckProtectionModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MorionModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/OpenedSalletModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBascinetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BicoqueModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PuffAndSlashModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KulahKhudModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KlappvisorBascinetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GreathelmModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateSalletModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CloseHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CondottieroCapModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BellowsMaximilianHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GreenwichArmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SturmhaubeModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PuffAndSlashModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ClosedBurgonetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BurgundianKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ExquisiteArmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BritishArmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/VisoredKettlehatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SavoyardHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyGreathelmModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KulahKhudModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBascinetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FancyHatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletWithoutNeckProtectionModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/UnderarmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SavoyardHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SteelPuffAndSlashModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KlappvisorBascinetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FacialGrotesqueMaximilianHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyGreathelmModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/NecklaceArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PatricianTuherHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LobsterTailedHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/VisoredKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MorionModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BicoqueModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyCabassetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CabassetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/StrawHatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBurgonetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/DevilishGrotesqueMaximilianHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateGreathelmModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ChapelModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/TunicModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/RoyalPlumeModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/ShoulderPadsModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtHatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HeavyShoulderPadModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HorseTailDecorationModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HelmetRondelModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/CodpieceModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtFeathersModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/SkirtModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HelmetWingsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HangingClothModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/MustacheModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PinceNezModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/NecklaceModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GooseModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/UnderarmorTunicModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GorgetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HeavyShoulderPadModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtHatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HoodModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/ShoulderPadsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PlackartModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PuffAndSlashSleevesModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GiorneaModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/RamHornsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BillhookConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSeaxConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXvConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScimitarConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RichSaxonSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SideswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BroadaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BollockDaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SabreConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LanceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LongswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$VoulgeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GoedendagConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LongSeaxConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SickleConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/AddonConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RapierConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FederConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$PartisanConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GlaiveConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/AddonItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/AddonWeaponTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/armor/AddonArmorTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/misc/AddonMerchOffers with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\AppData\Local\Temp\7763913485851978003.jar
-[Architectury Transformer] Listening at C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\AppData\Local\Temp\7796158856843615406.jar
+[Architectury Transformer] Listening at C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar
 [Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/EpicKnightsAddon.class to com/magistuarmory/addon/EpicKnightsAddon.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd678@43b9fd5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -166,14 +256,504 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/EpicKnightsAddon with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/EpicKnightsAddon in 45.87 ms
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/EpicKnightsAddon in 45.14 ms
 [Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/item/AddonItems.class to com/magistuarmory/addon/item/AddonItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd678@43b9fd5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/AddonItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/item/AddonItems in 10.37 ms
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/item/AddonItems in 15.01 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/AddonConfig.class to com/magistuarmory/addon/config/AddonConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/AddonConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/AddonConfig in 8.543 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig.class to com/magistuarmory/addon/config/WeaponsConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig in 13.05 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/ArmorConfig.class to com/magistuarmory/addon/config/ArmorConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/ArmorConfig in 10.64 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig in 6.403 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig in 6.342 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$WarAxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$WarAxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$WarAxeConfig in 4.699 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig.class to com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig in 4.999 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$BollockDaggerConfig.class to com/magistuarmory/addon/config/WeaponsConfig$BollockDaggerConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BollockDaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$BollockDaggerConfig in 5.901 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig.class to com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig in 4.770 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig.class to com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig in 6.862 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$SickleConfig.class to com/magistuarmory/addon/config/WeaponsConfig$SickleConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SickleConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$SickleConfig in 6.733 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig in 4.728 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig in 4.362 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig in 6.596 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig.class to com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig in 6.276 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig in 6.467 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig.class to com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig in 5.674 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$LanceConfig.class to com/magistuarmory/addon/config/WeaponsConfig$LanceConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LanceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$LanceConfig in 5.398 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$BroadaxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$BroadaxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BroadaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$BroadaxeConfig in 4.912 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig in 4.757 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig in 4.546 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig.class to com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig in 5.701 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$FalchionConfig.class to com/magistuarmory/addon/config/WeaponsConfig$FalchionConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$FalchionConfig in 5.000 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$FederConfig.class to com/magistuarmory/addon/config/WeaponsConfig$FederConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FederConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$FederConfig in 4.895 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig.class to com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig in 5.015 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$LongswordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$LongswordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LongswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$LongswordConfig in 5.357 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$LongSeaxConfig.class to com/magistuarmory/addon/config/WeaponsConfig$LongSeaxConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LongSeaxConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$LongSeaxConfig in 4.284 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig in 3.985 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$RapierConfig.class to com/magistuarmory/addon/config/WeaponsConfig$RapierConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RapierConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$RapierConfig in 4.298 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ScimitarConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ScimitarConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScimitarConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ScimitarConfig in 4.944 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$SideswordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$SideswordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SideswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$SideswordConfig in 4.070 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig in 4.134 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$BillhookConfig.class to com/magistuarmory/addon/config/WeaponsConfig$BillhookConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BillhookConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$BillhookConfig in 3.627 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig.class to com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig in 4.157 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig.class to com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig in 4.702 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$GlaiveConfig.class to com/magistuarmory/addon/config/WeaponsConfig$GlaiveConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GlaiveConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$GlaiveConfig in 4.443 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$GoedendagConfig.class to com/magistuarmory/addon/config/WeaponsConfig$GoedendagConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GoedendagConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$GoedendagConfig in 3.985 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$PartisanConfig.class to com/magistuarmory/addon/config/WeaponsConfig$PartisanConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$PartisanConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$PartisanConfig in 3.622 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig in 3.194 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig in 2.719 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$VoulgeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$VoulgeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$VoulgeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$VoulgeConfig in 3.614 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig.class to com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig in 5.574 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig in 6.471 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig in 4.777 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXvConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXvConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXvConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXvConfig in 4.015 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$RichSaxonSwordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$RichSaxonSwordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RichSaxonSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$RichSaxonSwordConfig in 5.102 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$SabreConfig.class to com/magistuarmory/addon/config/WeaponsConfig$SabreConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SabreConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$SabreConfig in 3.956 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig.class to com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig in 4.053 ms
+[Architectury Transformer DEBUG] Transforming from com/magistuarmory/addon/config/WeaponsConfig$ShortSeaxConfig.class to com/magistuarmory/addon/config/WeaponsConfig$ShortSeaxConfig.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$150/0x0000000800ccd8e8@7d2a6eac
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSeaxConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.19.x]-Epic-Knights-Addon-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/magistuarmory/addon/config/WeaponsConfig$ShortSeaxConfig in 4.162 ms

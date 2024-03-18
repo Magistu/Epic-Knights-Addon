@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "  a",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:landsknecht_feathers_decoration",
+    "count": 1
+  }
+}

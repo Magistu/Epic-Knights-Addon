@@ -13,10 +13,10 @@
       "item": "magistuarmory:chainmail_chestplate"
     },
     "c": {
-      "item": "magistuarmory:woolen_fabric"
+      "tag": "magistuarmory:woolen_fabrics"
     },
     "d": {
-      "item": "magistuarmory:leather_strip"
+      "tag": "magistuarmory:leather_strips"
     }
   },
   "result": {

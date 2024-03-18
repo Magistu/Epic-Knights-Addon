@@ -1,5 +1,5 @@
 [Architectury Transformer] Architectury Runtime 5.2.80
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 153 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
@@ -7,7 +7,7 @@
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-fabric\6.5.85\61d81c6a6bd1e8bafde29922b878a31309a68fdd\architectury-fabric-6.5.85.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\me.shedaniel.cloth\cloth-config-fabric\8.3.103\475ab5dec26fa5d25b1d899b8261b054fbc283d6\cloth-config-fabric-8.3.103.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\com.terraformersmc\modmenu\4.1.2\495674289dcba88b6df3d86b7590c7b192b993fe\modmenu-4.1.2.jar
-[Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.14.24\e0531c8dcd0687a1c0ed9804d8031e2f83be3083\fabric-loader-0.14.24.jar
+[Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.15.3\2ca88d3e40732dabca6dd01178ac04c3d675fecc\fabric-loader-0.15.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.fabricmc\tiny-mappings-parser\0.3.0+build.17\2f10540a290e382a7cd35c16ec3900046a4e252\tiny-mappings-parser-0.3.0+build.17.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.12.4+mixin.0.8.5\e13b4069fe3555969811d4474f78576c707bbe1c\sponge-mixin-0.12.4+mixin.0.8.5.jar
@@ -155,24 +155,34 @@
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\me.shedaniel.cloth\basic-math\0.6.1\2ddd64b22126332794a5754ff9b942e17fb44c39\basic-math-0.6.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\blue.endless\jankson\1.2.0\3a596049034f2952c0b2d40ca41f9b98856d5fb4\jankson-1.2.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\lut8\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.27\359d62567480b07a679dc643f82fc926b100eed5\snakeyaml-1.27.jar
-[Architectury Transformer] Read classpath in 1.097 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar to C:\Users\lut8\AppData\Local\Temp\18306006625518300242.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5d43661b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@12299890
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@2fba3fc4
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4bf48f6
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@420a85c4
-[Architectury Transformer DEBUG] Transforming from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar to C:\Users\lut8\AppData\Local\Temp\18306006625518300242.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer] Read classpath in 987.2 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar to C:\Users\lut8\AppData\Local\Temp\13119876893697506329.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7b5a12ae
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@5553d0f5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@1af687fe
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@14dda234
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3f390d63
+[Architectury Transformer DEBUG] Transforming from C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar to C:\Users\lut8\AppData\Local\Temp\13119876893697506329.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/AddonModels with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BellowsMaximilianHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BicoqueModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BritishArmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BurgundianKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ChapelModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ClosedBurgonetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/DevilishGrotesqueMaximilianHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyGreathelmModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ExquisiteArmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FacialGrotesqueMaximilianHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GreenwichArmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KlappvisorBascinetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KulahKhudModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBascinetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBurgonetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateGreathelmModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateSalletModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LobsterTailedHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MilaneseArmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MorionModel with maxs=true frames=true
@@ -181,18 +191,31 @@
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletWithoutNeckProtectionModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SavoyardHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SteelPuffAndSlashModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SturmhaubeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/UnderarmorModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/VisoredKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GooseModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GorgetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HangingClothModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HeavyShoulderPadModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HelmetRondelModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HelmetWingsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HoodModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HorseTailDecorationModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtFeathersModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtHatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/MustacheModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/NecklaceModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PinceNezModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/RoyalPlumeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/ShoulderPadsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/SkirtModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/UnderarmorTunicModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/EpicKnightsAddon with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/AddonItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/AddonWeaponTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/item/armor/AddonArmorTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\AppData\Local\Temp\18306006625518300242.jar
-[Architectury Transformer] Listening at C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.1-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\lut8\AppData\Local\Temp\13119876893697506329.jar
+[Architectury Transformer] Listening at C:\Users\lut8\Java\modding\Epic-Knights-Addon-1.19.2-crossversion\common\build\devlibs\[1.19.x]-Epic-Knights-Addon-1.3-dev.jar

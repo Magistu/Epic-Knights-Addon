@@ -16,7 +16,7 @@
             "item": "magistuarmory:steel_nugget"
         },
         "h": {
-            "item": "magistuarmory:hilt"
+            "tag": "magistuarmory:hilts"
         }
     },
     "result": {

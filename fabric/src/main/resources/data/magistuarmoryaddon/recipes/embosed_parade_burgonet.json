@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aba",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    },
+    "b": {
+      "item": "magistuarmory:cuirassier_helmet"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:embosed_parade_burgonet",
+    "count": 1
+  }
+}
