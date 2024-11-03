@@ -10,13 +10,13 @@
       "item": "magistuarmoryaddon:cervelliere"
     },
     "b": {
-      "item": "minecraft:blaze_powder"
+      "tag": "c:steel_nuggets"
     },
     "c": {
       "tag": "c:steel_ingots"
     },
     "d": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "c:steel_plates"
     }
   },
   "result": {

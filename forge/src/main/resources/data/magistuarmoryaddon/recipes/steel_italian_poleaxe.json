@@ -16,7 +16,7 @@
       "tag": "forge:rods/wooden"
     },
     "p": {
-      "item": "magistuarmory:pole"
+      "tag": "magistuarmory:poles"
     },
     "u": {
       "tag": "forge:nuggets/steel"

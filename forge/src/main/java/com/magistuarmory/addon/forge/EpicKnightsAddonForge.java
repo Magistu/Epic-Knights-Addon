@@ -11,7 +11,6 @@ public class EpicKnightsAddonForge
 {
     public EpicKnightsAddonForge()
     {
-        System.out.println("zaebok");
         EventBuses.registerModEventBus(EpicKnightsAddon.ID, FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);

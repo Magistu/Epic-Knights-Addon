@@ -10,7 +10,7 @@
       "item": "magistuarmory:chainmail_boots"
     },
     "b": {
-      "item": "magistuarmory:leather_strip"
+      "tag": "magistuarmory:leather_strips"
     },
     "c": {
       "tag": "forge:ingots/steel"

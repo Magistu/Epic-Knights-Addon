@@ -10,7 +10,7 @@
       "tag": "forge:ingots/steel"
     },
     "a": {
-      "item": "magistuarmory:small_steel_plate"
+      "tag": "magistuarmory:small_plates/steel"
     },
     "c": {
       "item": "magistuarmory:halfarmor_chestplate"

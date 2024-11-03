@@ -21,7 +21,7 @@
 			"scale": [1.5, 1.5, 1]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-49, 31, 3],
+			"rotation": [126, -35, 83],
 			"translation": [-8, 9.25, -4.75],
 			"scale": [1.5, 1.5, 1]
 		},
@@ -30,8 +30,8 @@
 			"scale": [0.9375, 0.9375, 0.46875]
 		},
 		"gui": {
-			"translation": [1.6, 1.6, 0],
-			"scale": [1.18, 1.18, 1]
+			"translation": [2.45, 2.45, 0],
+			"scale": [1.4, 1.4, 1]
 		}
 	}
 }

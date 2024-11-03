@@ -10,7 +10,7 @@
       "item": "minecraft:red_dye"
     },
     "b": {
-      "item": "magistuarmory:leather_strip"
+      "tag": "magistuarmory:leather_strips"
     },
     "c": {
       "item": "magistuarmory:lamellar_boots"

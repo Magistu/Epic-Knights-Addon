@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "item": "magistuarmory:steel_ring"
+      "tag": "magistuarmory:rings/steel"
     },
     "b": {
       "tag": "c:steel_ingots"
     },
     "c": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "c:steel_plates"
     },
     "d": {
       "tag": "c:steel_ingots"

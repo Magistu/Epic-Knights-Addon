@@ -5,7 +5,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modImplementation "io.github.magistu:${rootProject.minecraft_version}-epic-knights-common:${rootProject.epic_knights_version}"
+    modApi "io.github.magistu:${rootProject.minecraft_version}-epic-knights-common:${rootProject.epic_knights_version}"
 }
 
 architectury {

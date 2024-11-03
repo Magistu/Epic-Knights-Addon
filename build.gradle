@@ -1,6 +1,6 @@
 plugins {
     id "architectury-plugin" version "3.4-SNAPSHOT"
-    id "dev.architectury.loom" version "1.3-SNAPSHOT" apply false
+    id "dev.architectury.loom" version "1.3.+" apply false
 }
 
 architectury {
@@ -17,7 +17,7 @@ subprojects {
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
         // The following line declares the mojmap mappings, you may use other mappings as well
-        mappings loom.officialMojangMappings()
+        mappings(loom.officialMojangMappings())
         // The following line declares the yarn mappings you may select this one as well.
         // mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     }
@@ -33,8 +33,7 @@ allprojects {
     group = rootProject.maven_group
 
     repositories {
-        mavenLocal()
-//        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
     }
 
     tasks.withType(JavaCompile) {

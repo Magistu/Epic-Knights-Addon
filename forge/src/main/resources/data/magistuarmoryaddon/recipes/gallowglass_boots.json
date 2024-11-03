@@ -10,10 +10,10 @@
       "item": "minecraft:leather"
     },
     "b": {
-      "item": "magistuarmory:woolen_fabric"
+      "tag": "magistuarmory:woolen_fabrics"
     },
     "c": {
-      "item": "magistuarmory:steel_chainmail"
+      "tag": "magistuarmory:chainmails/steel"
     }
   },
   "result": {

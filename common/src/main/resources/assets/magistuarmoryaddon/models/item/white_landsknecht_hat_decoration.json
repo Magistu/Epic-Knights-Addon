@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "magistuarmoryaddon:item/white_landsknecht_hat_decoration",
-        "layer1": "magistuarmoryaddon:item/white_landsknecht_hat_decoration_overlay"
-    }
-}

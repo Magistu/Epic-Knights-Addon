@@ -10,7 +10,7 @@
       "tag": "forge:ingots/steel"
     },
     "b": {
-      "item": "magistuarmory:steel_chainmail"
+      "tag": "magistuarmory:chainmails/steel"
     },
     "c": {
       "item": "magistuarmoryaddon:tablet_helmet"

@@ -13,4 +13,4 @@ include("common")
 include("fabric")
 include("forge")
 
-rootProject.name = "Epic-Knights-Addon-1.19.2-crossversion"
+rootProject.name = "Epic-Knights-Addon-1.20.2-crossversion"

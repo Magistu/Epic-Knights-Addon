@@ -10,7 +10,7 @@
       "item": "magistuarmory:barbute"
     },
     "b": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "c:steel_plates"
     }
   },
   "result": {

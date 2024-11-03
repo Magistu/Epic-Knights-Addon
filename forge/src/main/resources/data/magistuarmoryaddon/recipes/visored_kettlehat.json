@@ -10,7 +10,7 @@
       "item": "magistuarmory:kettlehat"
     },
     "b": {
-      "item": "magistuarmory:steel_plate"
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

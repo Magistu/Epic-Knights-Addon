@@ -13,7 +13,7 @@
       "item": "magistuarmory:norman_helmet"
     },
     "c": {
-      "item": "magistuarmory:woolen_fabric"
+      "tag": "magistuarmory:woolen_fabrics"
     },
     "d": {
       "item": "minecraft:string"
