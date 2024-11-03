@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "cac",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:barbute"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:close_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "ccc",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:barbute"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:two_eye_slits_sallet",
+    "count": 1
+  }
+}

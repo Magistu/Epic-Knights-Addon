@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:grilled_helmet"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:fully_gilded_grilled_helmet",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmoryaddon:fully_gilding_template"
+    }
+}

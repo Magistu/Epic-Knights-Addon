@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " u ",
+    "gsg",
+    " p "
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:plates/steel"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    },
+    "p": {
+      "tag": "magistuarmory:poles"
+    },
+    "u": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_french_halberd",
+    "count": 1
+  }
+}

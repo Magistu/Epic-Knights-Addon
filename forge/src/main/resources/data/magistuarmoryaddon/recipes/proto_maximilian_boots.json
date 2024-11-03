@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_powder"
+    },
+    "c": {
+      "item": "magistuarmory:knight_boots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:proto_maximilian_boots",
+    "count": 1
+  }
+}

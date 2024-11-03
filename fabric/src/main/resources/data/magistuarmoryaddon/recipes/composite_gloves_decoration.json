@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " c ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:composite_gloves_decoration",
+    "count": 1
+  }
+}

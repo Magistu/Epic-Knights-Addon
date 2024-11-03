@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ti",
+    "pt"
+  ],
+  "key": {
+    "p": {
+      "tag": "magistuarmory:poles"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "t": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_boar_spear",
+    "count": 1
+  }
+}

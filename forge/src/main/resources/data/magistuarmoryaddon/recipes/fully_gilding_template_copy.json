@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " b ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/gold"
+    },
+    "b": {
+      "item": "magistuarmoryaddon:fully_gilding_template"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:fully_gilding_template",
+    "count": 2
+  }
+}

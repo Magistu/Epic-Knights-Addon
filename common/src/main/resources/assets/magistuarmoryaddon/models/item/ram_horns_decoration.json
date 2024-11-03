@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/ram_horns_decoration",
+        "layer1": "magistuarmoryaddon:item/ram_horns_decoration_overlay"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmory:jousting_chestplate"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:fully_gilded_jousting_chestplate",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmoryaddon:fully_gilding_template"
+    }
+}

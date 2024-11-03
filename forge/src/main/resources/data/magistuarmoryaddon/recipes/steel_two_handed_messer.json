@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " cc",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:hilts"
+    },
+    "b": {
+      "tag": "forge:nuggets/steel"
+    },
+    "c": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_two_handed_messer",
+    "count": 1
+  }
+}

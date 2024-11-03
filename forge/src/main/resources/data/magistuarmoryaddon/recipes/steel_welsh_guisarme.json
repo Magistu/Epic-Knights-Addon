@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " db",
+    "dcb",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:poles"
+    },
+    "b": {
+      "tag": "forge:nuggets/steel"
+    },
+    "c": {
+      "tag": "forge:rods/wooden"
+    },
+    "d": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_welsh_guisarme",
+    "count": 1
+  }
+}

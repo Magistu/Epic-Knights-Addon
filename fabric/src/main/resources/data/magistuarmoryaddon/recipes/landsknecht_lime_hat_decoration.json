@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "ada",
+        "   "
+    ],
+    "key": {
+        "a": {
+            "tag": "magistuarmory:woolen_fabrics"
+        },
+        "d": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:landsknecht_lime_hat_decoration",
+        "count": 1
+    }
+}

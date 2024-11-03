@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ada",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_powder"
+    },
+    "d": {
+      "item": "magistuarmory:knight_chestplate"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:proto_maximilian_chestplate",
+    "count": 1
+  }
+}

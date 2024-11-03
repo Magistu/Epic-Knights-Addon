@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/giornea_decoration",
+        "layer1": "magistuarmoryaddon:item/giornea_decoration_overlay"
+    }
+}

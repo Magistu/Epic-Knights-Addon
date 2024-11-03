@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "dad",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    },
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    },
+    "d": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:mamluk_helmet",
+    "count": 1
+  }
+}

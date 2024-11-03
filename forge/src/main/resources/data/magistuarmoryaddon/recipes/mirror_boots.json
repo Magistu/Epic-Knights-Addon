@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "aba",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:lamellar_rows/steel"
+    },
+    "b": {
+      "item": "minecraft:leather_boots"
+    },
+    "c": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:mirror_boots",
+    "count": 1
+  }
+}

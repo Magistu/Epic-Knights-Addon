@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "cac",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:norman_helmet"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:bicoque",
+    "count": 1
+  }
+}

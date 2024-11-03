@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ada",
+        "aaa",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "tag": "magistuarmory:woolen_fabrics"
+        },
+        "d": {
+            "item": "minecraft:blue_dye"
+        }
+    },
+    "result": {
+        "item": "magistuarmoryaddon:blue_puff_and_slash_chestplate",
+        "count": 1
+    }
+}

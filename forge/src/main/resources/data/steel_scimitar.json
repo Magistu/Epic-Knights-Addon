@@ -1,0 +1,6 @@
+{
+    "parent": "bettercombat:cutlass",
+    "attributes": {
+        "two_handed": true
+    }
+}

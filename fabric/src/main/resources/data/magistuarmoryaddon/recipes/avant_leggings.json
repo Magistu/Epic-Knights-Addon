@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bab"
+  ],
+  "key": {
+    "b": {
+      "tag": "c:steel_ingots"
+    },
+    "a": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:avant_leggings",
+    "count": 1
+  }
+}

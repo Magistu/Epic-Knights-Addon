@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/alla_tedesca_boots",
+        "layer1": "magistuarmoryaddon:item/alla_tedesca_boots_overlay"
+    }
+}

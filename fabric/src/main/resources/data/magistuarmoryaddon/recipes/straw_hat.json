@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "bbb",
+    "   "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:straw_hat",
+    "count": 1
+  }
+}

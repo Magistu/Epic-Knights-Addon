@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dbd",
+    " c ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:poles"
+    },
+    "b": {
+      "tag": "forge:nuggets/steel"
+    },
+    "c": {
+      "tag": "forge:rods/wooden"
+    },
+    "d": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_military_fork",
+    "count": 1
+  }
+}

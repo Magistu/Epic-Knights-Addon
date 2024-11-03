@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/silver"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:silver_necklace_decoration",
+    "count": 1
+  }
+}

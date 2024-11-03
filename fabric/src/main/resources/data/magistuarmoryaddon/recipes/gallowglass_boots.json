@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "b b",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "c": {
+      "tag": "magistuarmory:chainmails/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:gallowglass_boots",
+    "count": 1
+  }
+}

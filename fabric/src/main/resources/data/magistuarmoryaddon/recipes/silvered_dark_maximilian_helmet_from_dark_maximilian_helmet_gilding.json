@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:dark_maximilian_helmet"
+    },
+    "addition": {
+        "tag": "c:silver_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:silvered_dark_maximilian_helmet",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:gilding_template"
+    }
+}

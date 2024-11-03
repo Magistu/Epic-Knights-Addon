@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bbb",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:landsknecht_black_hat_decoration"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:tilted_puff_and_slash_hat",
+    "count": 1
+  }
+}

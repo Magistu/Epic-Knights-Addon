@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  c",
+    "ac ",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gold_nuggets"
+    },
+    "b": {
+      "item": "magistuarmory:steel_shortsword"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_king_sword",
+    "count": 1
+  }
+}

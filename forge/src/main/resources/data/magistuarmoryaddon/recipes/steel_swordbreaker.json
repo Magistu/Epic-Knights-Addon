@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "ba ",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_stylet"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_swordbreaker",
+    "count": 1
+  }
+}

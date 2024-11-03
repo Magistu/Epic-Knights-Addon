@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/red_cross_medieval_cloak_decoration",
+        "layer1": "magistuarmoryaddon:item/red_cross_medieval_cloak_decoration_overlay"
+    }
+}

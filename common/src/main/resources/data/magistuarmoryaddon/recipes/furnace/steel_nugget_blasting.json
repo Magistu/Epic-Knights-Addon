@@ -1,0 +1,848 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {
+            "item": "magistuarmoryaddon:steel_bar_mace"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_battleaxe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_crow_beak"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_francisca_axe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_round_mace"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_war_axe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_war_hammer"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_bollock_dagger"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_dagger"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_parrying_dagger"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_rondel_dagger"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_sickle"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_executioners_sword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_german_greatsword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_two_handed_messer"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_english_poleaxe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_french_halberd"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_italian_poleaxe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_swiss_halberd"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_lance"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_broadaxe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_daneaxe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_gallowglass_axe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_hammer_spear"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_two_handed_evening_star"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_cavalry_sabre"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_cutlass"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_falchion"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_feder"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_grand_falchion"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_king_sword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_longsword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_long_seax"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_maciejowski_messer"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_messer_sword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_rapier"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_scimitar"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_sidesword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_billhook"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_boar_spear"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_fauchard"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_glaive"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_goedendag"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_military_fork"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_partisan"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_scythe"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_short_spear"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_voulge"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_welsh_guisarme"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_arming_sword_type_xiii"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_arming_sword_type_xiv"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_arming_sword_type_xv"
+        },
+        {
+            "item": "magistuarmoryaddon:rich_saxon_sword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_sabre"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_saxon_sword"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_short_seax"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_swordbreaker"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_dueling_shield"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_knight_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_knight_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_knight_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_knight_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_jousting_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_jousting_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_jousting_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_jousting_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gothic_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gothic_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gothic_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gothic_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_maximilian_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_crusader_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_crusader_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_crusader_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_crusader_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_grand_bascinet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_kastenbrust_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_kastenbrust_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_kastenbrust_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:savoyard_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:morion"
+        },
+        {
+            "item": "magistuarmoryaddon:pikeman_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:pikeman_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:milanese_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:british_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:avant_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:avant_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:avant_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:visored_kettlehat"
+        },
+        {
+            "item": "magistuarmoryaddon:cervelliere"
+        },
+        {
+            "item": "magistuarmoryaddon:closed_barbute"
+        },
+        {
+            "item": "magistuarmoryaddon:bicoque"
+        },
+        {
+            "item": "magistuarmoryaddon:sallet_without_neck_protection"
+        },
+        {
+            "item": "magistuarmoryaddon:bellows_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:kulah_khud"
+        },
+        {
+            "item": "magistuarmoryaddon:cuman_captain_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:mirror_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:mirror_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:saracen_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:saracen_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:saracen_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:early_greathelm"
+        },
+        {
+            "item": "magistuarmoryaddon:xiii_century_knight_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:xiii_century_knight_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:xiii_century_knight_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:klappvisor_bascinet"
+        },
+        {
+            "item": "magistuarmoryaddon:late_bascinet"
+        },
+        {
+            "item": "magistuarmoryaddon:lobster_tailed_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:chapel"
+        },
+        {
+            "item": "magistuarmoryaddon:chained_gambeson"
+        },
+        {
+            "item": "magistuarmoryaddon:chained_gambeson_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:tablet_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:late_greathelm"
+        },
+        {
+            "item": "magistuarmoryaddon:burgundian_kettlehat"
+        },
+        {
+            "item": "magistuarmoryaddon:closed_burgonet"
+        },
+        {
+            "item": "magistuarmoryaddon:heavy_cuirassier_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:heavy_cuirassier_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_heavy_cuirassier_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_heavy_cuirassier_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:light_burgonet"
+        },
+        {
+            "item": "magistuarmoryaddon:late_burgonet"
+        },
+        {
+            "item": "magistuarmoryaddon:devilish_grotesque_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:facial_grotesque_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gilded_greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gilded_greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gilded_greenwich_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_greenwich_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:late_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_late_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_puff_and_slash_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:steel_puff_and_slash_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_steel_puff_and_slash_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_steel_puff_and_slash_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:sturmhaube"
+        },
+        {
+            "item": "magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:silvered_dark_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:silvered_dark_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:silvered_dark_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_grand_bascinet"
+        },
+        {
+            "item": "magistuarmoryaddon:ceremonial_kastenbrust_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:ceremonial_kastenbrust_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_xivcenturyknight_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_xivcenturyknight_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gallowglass_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gallowglass_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:gallowglass_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:english_knight_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:english_knight_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_half_armor"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_exquisite_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:coat_of_plates_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:coat_of_plates_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:silvered_dark_half_armor"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_dark_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_dark_gothic_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_dark_gothic_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_gothic_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_gothic_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_greenwich_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:greenwich_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:scale_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:sugarloaf_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_sugarloaf_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:patrician_tuher_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:late_kettlehat"
+        },
+        {
+            "item": "magistuarmoryaddon:close_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:exquisite_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:proto_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:proto_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_proto_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_proto_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:heavy_brigandine_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:heavy_brigandine_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:heavy_brigandine_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_heavy_brigandine_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_heavy_brigandine_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_heavy_brigandine_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_heavy_brigandine_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_heavy_brigandine_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_heavy_brigandine_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:cabasset"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_cabasset"
+        },
+        {
+            "item": "magistuarmoryaddon:early_cabasset"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_early_cabasset"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_early_cabasset"
+        },
+        {
+            "item": "magistuarmoryaddon:embosed_parade_burgonet"
+        },
+        {
+            "item": "magistuarmoryaddon:embosed_parade_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:embosed_parade_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gilded_parade_burgonet"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gilded_parade_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_gilded_parade_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:articulated_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:cuman_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_gothic_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_gothic_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_gothic_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_kastenbrust_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_kastenbrust_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_kastenbrust_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_knight_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_knight_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_knight_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_maximilian_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:darkblued_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:engraved_close_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:engraved_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fox_grotesque_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_articulated_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_gothic_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_gothic_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_gothic_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_grand_bascinet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_greenwich_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_grilled_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_jousting_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_jousting_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_jousting_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_jousting_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_kastenbrust_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_kastenbrust_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_kastenbrust_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_knight_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_knight_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_knight_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_maximilian_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_maximilian_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_maximilian_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_milanese_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:fully_gilded_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_chainmail_coif"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_chainmail_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_chainmail_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_close_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_darkblued_greenwich_armet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_darkblued_greenwich_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_darkblued_greenwich_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_dark_close_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_fox_grotesque_maximilian_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_grilled_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:grilled_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:lion_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:mamluk_helmet"
+        },
+        {
+            "item": "magistuarmoryaddon:maximilian_burgonet"
+        },
+        {
+            "item": "magistuarmoryaddon:opened_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:splint_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:splint_leggings"
+        },
+        {
+            "item": "magistuarmoryaddon:splint_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:alla_tedesca_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:alla_tedesca_boots"
+        },
+        {
+            "item": "magistuarmoryaddon:peascod_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_peascod_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:dark_peascod_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:gilded_dark_peascod_chestplate"
+        },
+        {
+            "item": "magistuarmoryaddon:two_eye_slits_sallet"
+        },
+        {
+            "item": "magistuarmoryaddon:sallet_without_visor"
+        },
+        {
+            "item": "magistuarmoryaddon:german_bascinet"
+        },
+        {
+            "item": "magistuarmoryaddon:light_cuman_helmet"
+        }
+    ],
+    "result": "magistuarmory:steel_nugget",
+    "experience": 0.1,
+    "cookingtime": 100
+}

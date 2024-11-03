@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  i",
+    " g ",
+    "s  "
+  ],
+  "key": {
+    "g": {
+      "tag": "magistuarmory:poles"
+    },
+    "i": {
+      "item": "magistuarmory:steel_shortsword"
+    },
+    "s": {
+      "tag": "c:wooden_rods"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_glaive",
+    "count": 1
+  }
+}

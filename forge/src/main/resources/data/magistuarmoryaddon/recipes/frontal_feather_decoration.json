@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " b ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/gold"
+    },
+    "b": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:frontal_feather_decoration",
+    "count": 1
+  }
+}

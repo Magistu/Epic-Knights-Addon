@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " a ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:norman_helmet"
+    },
+    "b": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:german_bascinet",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    " b ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_shortsword"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_saxon_sword",
+    "count": 1
+  }
+}
