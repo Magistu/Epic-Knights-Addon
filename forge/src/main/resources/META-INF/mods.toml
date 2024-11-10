@@ -8,7 +8,7 @@ modId = "magistuarmoryaddon"
 version = "${version}"
 displayName = "Epic Knights: Addon"
 authors = ["Magistu", "SuperSus890", "SteveMe", "Desperate_bork", "minucius", "hoetistic", "theblackchimera", "Santusio", "Flavius_Blue", "caballerohospitalario", "alhendahu", "Reymecos", "Skydog"]
-credits = [""]
+credits = ["archimedes"]
 description = '''
 Adds medieval stuff to the game
 '''

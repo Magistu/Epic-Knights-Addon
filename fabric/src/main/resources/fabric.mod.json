@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "magistuarmoryaddon",
-  "version": "1.10",
+  "version": "1.11",
   "name": "Epic Knights: Addon",
   "description": "Adds more medieval stuff to the game",
   "authors": [
     "Magistu", "SuperSus890", "SteveMe", "Desperate_bork", "minucius", "hoetistic", "theblackchimera", "Santusio", "Flavius_Blue", "caballerohospitalario", "alhendahu", "Reymecos", "Skydog"
   ],
   "contributors": [
-    
+    "archimedes"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/epic-knights-addon",
@@ -26,6 +26,6 @@
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.20.0",
-    "magistuarmory": ">=9.16"
+    "magistuarmory": ">=8.3"
   }
 }

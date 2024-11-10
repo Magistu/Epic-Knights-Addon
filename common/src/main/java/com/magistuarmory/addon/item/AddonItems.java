@@ -208,7 +208,7 @@ public class AddonItems extends ModItemsProvider
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARK_GREENWICH_ARMET = INSTANCE.addMedievalArmorItem("dark_greenwich_armet", AddonArmorTypes.DARK_GREENWICH_ARMET, ArmorItem.Type.HELMET, new Item.Properties());
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARK_GREENWICH_CHESTPLATE = INSTANCE.addMedievalArmorItem("dark_greenwich_chestplate", AddonArmorTypes.DARK_GREENWICH, ArmorItem.Type.CHESTPLATE, new Item.Properties());
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARK_GREENWICH_BOOTS = INSTANCE.addMedievalArmorItem("dark_greenwich_boots", AddonArmorTypes.DARK_GREENWICH, ArmorItem.Type.LEGGINGS, new Item.Properties());
+	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARK_GREENWICH_BOOTS = INSTANCE.addMedievalArmorItem("dark_greenwich_boots", AddonArmorTypes.DARK_GREENWICH, ArmorItem.Type.BOOTS, new Item.Properties());
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> LATE_SALLET = INSTANCE.addMedievalArmorItem("late_sallet", AddonArmorTypes.LATE_SALLET, ArmorItem.Type.HELMET, new Item.Properties());
 
