@@ -43,7 +43,7 @@ public class AddonItems extends ModItemsProvider
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_FRENCH_HALBERD = INSTANCE.addMedievalWeaponItem("steel_french_halberd", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.FRENCH_HALBERD);
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_ITALIAN_POLEAXE = INSTANCE.addMedievalWeaponItem("steel_italian_poleaxe", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.ITALIAN_POLEAXE);
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_SWISS_HALBERD = INSTANCE.addMedievalWeaponItem("steel_swiss_halberd", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.SWISS_HALBERD);
-	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_LANCE = INSTANCE.addMedievalWeaponItem("steel_lance", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.LANCE);
+	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_LANCE = INSTANCE.addLanceItem("steel_lance", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.LANCE);
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_BROADAXE = INSTANCE.addMedievalWeaponItem("steel_broadaxe", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.BROADAXE);
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_DANEAXE = INSTANCE.addMedievalWeaponItem("steel_daneaxe", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.DANEAXE);
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_GALLOWGLASS_AXE = INSTANCE.addMedievalWeaponItem("steel_gallowglass_axe", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.GALLOWGLASS_AXE);

@@ -1,23 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " c ",
-    "cbc",
-    "aca"
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:blaze_powder"
-    },
-    "b": {
-      "item": "magistuarmory:barbute"
-    },
-    "c": {
-      "tag": "forge:plates/steel"
-    }
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmoryaddon:late_sallet"
+  },
+  "addition": {
+    "item": "minecraft:blaze_powder"
   },
   "result": {
     "item": "magistuarmoryaddon:bellows_maximilian_helmet",
     "count": 1
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }

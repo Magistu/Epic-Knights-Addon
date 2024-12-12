@@ -1,26 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "a a",
-    "cbc",
-    "cdc"
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:blaze_powder"
-    },
-    "b": {
-      "item": "magistuarmory:barbute"
-    },
-    "c": {
-      "tag": "magistuarmory:small_plates/steel"
-    },
-    "d": {
-      "tag": "c:steel_ingots"
-    }
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmoryaddon:british_armet"
+  },
+  "addition": {
+    "item": "minecraft:blaze_powder"
   },
   "result": {
     "item": "magistuarmoryaddon:fox_grotesque_maximilian_helmet",
     "count": 1
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }

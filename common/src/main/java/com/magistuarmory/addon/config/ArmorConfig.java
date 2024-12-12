@@ -4124,9 +4124,9 @@ public class ArmorConfig implements ConfigData
 		public int helmetDefense;
 		public LionHelmetConfig() {
 			this.enabled = true;
-			this.toughness = 1.25f;
-			this.helmetDurability = 275;
-			this.helmetDefense = 3;
+			this.toughness = 0.0f;
+			this.helmetDurability = 205;
+			this.helmetDefense = 2;
 		}
 	}
 	public static class MamlukHelmetConfig

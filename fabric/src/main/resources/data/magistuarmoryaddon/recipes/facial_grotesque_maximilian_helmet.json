@@ -1,26 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "b b",
-    "dad",
-    "dcd"
-  ],
-  "key": {
-    "a": {
-      "item": "magistuarmory:barbute"
-    },
-    "b": {
-      "item": "minecraft:blaze_powder"
-    },
-    "c": {
-      "tag": "magistuarmory:small_plates/steel"
-    },
-    "d": {
-      "tag": "c:steel_plates"
-    }
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmoryaddon:milanese_armet"
+  },
+  "addition": {
+    "item": "minecraft:blaze_powder"
   },
   "result": {
     "item": "magistuarmoryaddon:facial_grotesque_maximilian_helmet",
     "count": 1
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }
