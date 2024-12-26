@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gbg",
+    "ppp"
+  ],
+  "key": {
+    "b": {
+      "item": "magistuarmory:barbute"
+    },
+    "p": {
+      "tag": "forge:plates/steel"
+    },
+    "g": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:lion_helmet",
+    "count": 1
+  }
+}

@@ -3633,8 +3633,8 @@ public class ArmorConfig implements ConfigData
 		public FoxGrotesqueMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
-			this.helmetDurability = 275;
-			this.helmetDefense = 3;
+			this.helmetDurability = 385;
+			this.helmetDefense = 4;
 		}
 	}
 	public static class FullyGildedArmetConfig
@@ -3891,8 +3891,8 @@ public class ArmorConfig implements ConfigData
 		public FullyGildedMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
-			this.helmetDurability = 275;
-			this.helmetDefense = 3;
+			this.helmetDurability = 385;
+			this.helmetDefense = 4;
 		}
 	}
 	public static class FullyGildedMaximilianConfig
@@ -4124,9 +4124,9 @@ public class ArmorConfig implements ConfigData
 		public int helmetDefense;
 		public LionHelmetConfig() {
 			this.enabled = true;
-			this.toughness = 0.0f;
-			this.helmetDurability = 205;
-			this.helmetDefense = 2;
+			this.toughness = 1.25f;
+			this.helmetDurability = 275;
+			this.helmetDefense = 3;
 		}
 	}
 	public static class MamlukHelmetConfig

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmory:chainmail_helmet"
+    },
+    "addition": {
+        "tag": "c:gold_ingots"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:gilded_chainmail_coif",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:gilding_template"
+    }
+}

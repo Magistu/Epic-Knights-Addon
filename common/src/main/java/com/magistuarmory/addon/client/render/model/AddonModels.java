@@ -63,7 +63,7 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation MAXIMILIAN_BURGONET_LOCATION = INSTANCE.addArmorModel("maximilian_burgonet", MaximilianBurgonetModel::createLayer);
 	public static final ModelLayerLocation OPENED_SALLET_LOCATION = INSTANCE.addArmorModel("opened_sallet", OpenedSalletModel::createLayer);
 	public static final ModelLayerLocation TILTED_PUFF_AND_SLASH_HAT_LOCATION = INSTANCE.addArmorModel("tilted_puff_and_slash_hat", PuffAndSlashTiltedHatModel::createLayer);
-	public static final ModelLayerLocation SALLET_WITHOUT_VISOR_LOCATION = INSTANCE.addArmorModel("sallet_without_visor", SalletWithoutVisorModel::createLayer);
+	public static final ModelLayerLocation SALLET_WITHOUT_VISOR_LOCATION = INSTANCE.addArmorModel("sallet_without_visor", SalletWithoutNeckProtectionModel::createLayer);
 	public static final ModelLayerLocation GERMAN_BASCINET_LOCATION = INSTANCE.addArmorModel("german_bascinet", GermanBascinetModel::createLayer);
 
 	// Decorations
