@@ -605,6 +605,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkKnightConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -626,6 +627,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -643,6 +645,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkStechhelmConfig() {
 			this.enabled = true;
 			this.toughness = 2.00f;
@@ -668,6 +671,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkJoustingConfig() {
 			this.enabled = true;
 			this.toughness = 2.00f;
@@ -689,6 +693,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -714,6 +719,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkGothicConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -735,6 +741,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -760,6 +767,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -781,6 +789,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkGreathelmConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -802,10 +811,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
-		@ConfigEntry.Gui.RequiresRestart
-		public int bootsDurability;
-		@ConfigEntry.Gui.RequiresRestart
-		public int bootsDefense;
+
 		public DarkCrusaderConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -813,8 +819,6 @@ public class ArmorConfig implements ConfigData
 			this.chestplateDefense = 6;
 			this.leggingsDurability = 280;
 			this.leggingsDefense = 5;
-			this.bootsDurability = 150;
-			this.bootsDefense = 1;
 		}
 	}
 	public static class DarkGrandBascinetConfig
@@ -827,6 +831,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkGrandBascinetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -852,6 +857,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkKastenbrustConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -873,6 +879,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SavoyardHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -890,6 +897,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public MorionConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -911,6 +919,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public PikemanConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -930,6 +939,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public MilaneseArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -947,6 +957,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public BritishArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -972,6 +983,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public AvantConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -993,6 +1005,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public VisoredKettlehatConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -1010,6 +1023,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public CervelliereConfig() {
 			this.enabled = true;
 			this.toughness = 0.20f;
@@ -1027,6 +1041,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public ClosedBarbuteConfig() {
 			this.enabled = true;
 			this.toughness = 1.00f;
@@ -1044,6 +1059,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public BicoqueConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1061,6 +1077,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LinenConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -1078,6 +1095,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SalletWithoutNeckProtectionConfig() {
 			this.enabled = true;
 			this.toughness = 0.70f;
@@ -1095,6 +1113,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public BellowsMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1112,6 +1131,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public KulahKhudConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -1129,6 +1149,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public CumanCaptainHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.80f;
@@ -1150,6 +1171,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public MirrorConfig() {
 			this.enabled = true;
 			this.toughness = 0.80f;
@@ -1177,6 +1199,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public SaracenConfig() {
 			this.enabled = true;
 			this.toughness = 0.20f;
@@ -1198,6 +1221,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public EarlyGreathelmConfig() {
 			this.enabled = true;
 			this.toughness = 0.40f;
@@ -1223,6 +1247,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public XiiiCenturyKnightConfig() {
 			this.enabled = true;
 			this.toughness = 0.35f;
@@ -1244,6 +1269,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public KlappvisorBascinetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1261,6 +1287,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LateBascinetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1278,6 +1305,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LobsterTailedHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -1295,6 +1323,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public ChapelConfig() {
 			this.enabled = true;
 			this.toughness = 0.30f;
@@ -1316,11 +1345,12 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public ChainedGambesonConfig() {
 			this.enabled = true;
 			this.toughness = 0.20f;
-			this.chestplateDurability = 192;
-			this.chestplateDefense = 3;
+			this.chestplateDurability = 210;
+			this.chestplateDefense = 4;
 			this.bootsDurability = 150;
 			this.bootsDefense = 2;
 		}
@@ -1335,6 +1365,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public TabletHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.20f;
@@ -1352,6 +1383,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LateGreathelmConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1369,6 +1401,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public BurgundianKettlehatConfig() {
 			this.enabled = true;
 			this.toughness = 0.30f;
@@ -1386,6 +1419,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public ClosedBurgonetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1407,6 +1441,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public HeavyCuirassierConfig() {
 			this.enabled = true;
 			this.toughness = 1.40f;
@@ -1430,6 +1465,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkHeavyCuirassierConfig() {
 			this.enabled = true;
 			this.toughness = 1.40f;
@@ -1449,6 +1485,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LightBurgonetConfig() {
 			this.enabled = true;
 			this.toughness = 0.50f;
@@ -1466,6 +1503,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LateBurgonetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -1483,6 +1521,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DevilishGrotesqueMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1500,6 +1539,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FacialGrotesqueMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1517,6 +1557,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkGildedGreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1538,6 +1579,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkGildedGreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1557,6 +1599,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkGreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1575,16 +1618,17 @@ public class ArmorConfig implements ConfigData
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
 		@ConfigEntry.Gui.RequiresRestart
-		public int leggingsDurability;
+		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
-		public int leggingsDefense;
+		public int bootsDefense;
+
 		public DarkGreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
 			this.chestplateDurability = 335;
 			this.chestplateDefense = 8;
-			this.leggingsDurability = 315;
-			this.leggingsDefense = 5;
+			this.bootsDurability = 315;
+			this.bootsDefense = 2;
 		}
 	}
 	public static class LateSalletConfig
@@ -1597,6 +1641,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LateSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1614,6 +1659,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkLateSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1635,6 +1681,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public SteelPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1658,6 +1705,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedSteelPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1677,6 +1725,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SturmhaubeConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -1694,6 +1743,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SilveredDarkBellowsMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1711,6 +1761,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SilveredDarkMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1732,6 +1783,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public SilveredDarkMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1751,6 +1803,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedGrandBascinetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1772,6 +1825,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public CeremonialKastenbrustConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1795,6 +1849,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedXivCenturyKnightConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1822,6 +1877,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GallowglassConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -1847,6 +1903,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public EnglishKnightConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -1866,6 +1923,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public GildedHalfArmorConfig() {
 			this.enabled = true;
 			this.toughness = 0.50f;
@@ -1883,6 +1941,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedExquisiteMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1900,6 +1959,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1921,6 +1981,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -1944,6 +2005,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public CoatOfPlatesConfig() {
 			this.enabled = true;
 			this.toughness = 0.50f;
@@ -1963,6 +2025,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public SilveredDarkHalfArmorConfig() {
 			this.enabled = true;
 			this.toughness = 0.50f;
@@ -1980,6 +2043,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedDarkSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2001,6 +2065,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedDarkGothicConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2020,6 +2085,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2041,6 +2107,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedGothicConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2060,6 +2127,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedGreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2081,6 +2149,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedGreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2100,6 +2169,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2121,6 +2191,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2140,6 +2211,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtOrangeHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2157,6 +2229,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtMagentaHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2174,6 +2247,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtLightBlueHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2191,6 +2265,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtYellowHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2208,6 +2283,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtLimeHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2225,6 +2301,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtPinkHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2242,6 +2319,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtGrayHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2259,6 +2337,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtLightGrayHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2276,6 +2355,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtCyanHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2293,6 +2373,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtPurpleHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2310,6 +2391,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtBlueHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2327,6 +2409,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtBrownHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2344,6 +2427,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtGreenHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2361,6 +2445,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtRedHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2378,6 +2463,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtBlackHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2395,6 +2481,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LandsknechtWhiteHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2416,6 +2503,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public OrangePuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2439,6 +2527,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public MagentaPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2462,6 +2551,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public LightBluePuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2485,6 +2575,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public YellowPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2508,6 +2599,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public LimePuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2531,6 +2623,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public PinkPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2554,6 +2647,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public GrayPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2577,6 +2671,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public LightGrayPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2600,6 +2695,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public CyanPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2623,6 +2719,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public PurplePuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2646,6 +2743,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public BluePuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2669,6 +2767,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public BrownPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2692,6 +2791,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public GreenPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2715,6 +2815,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public RedPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2738,6 +2839,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public BlackPuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2761,6 +2863,7 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public WhitePuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2780,6 +2883,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public PuffAndSlashConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2797,6 +2901,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public ScaleHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.20f;
@@ -2814,6 +2919,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public CondottieroCapConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -2831,6 +2937,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SugarloafHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -2848,6 +2955,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedSugarloafHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -2865,6 +2973,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public PatricianTuherHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -2882,6 +2991,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LateKettlehatConfig() {
 			this.enabled = true;
 			this.toughness = 0.30f;
@@ -2899,6 +3009,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public CloseHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -2916,6 +3027,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public ExquisiteMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -2937,6 +3049,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public ProtoMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.50f;
@@ -2960,6 +3073,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkProtoMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.50f;
@@ -2987,6 +3101,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public HeavyBrigandineConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3016,6 +3131,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedHeavyBrigandineConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3045,6 +3161,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkHeavyBrigandineConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3066,6 +3183,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public CabassetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -3083,6 +3201,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedCabassetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -3100,6 +3219,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public EarlyCabassetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -3117,6 +3237,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkEarlyCabassetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -3134,6 +3255,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedEarlyCabassetConfig() {
 			this.enabled = true;
 			this.toughness = 0.60f;
@@ -3151,6 +3273,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public StrawHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -3168,6 +3291,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FancyHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -3189,6 +3313,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public TunicConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -3208,6 +3333,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public EmbosedParadeBurgonetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3229,6 +3355,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public EmbosedParadeConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3248,6 +3375,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkGildedParadeBurgonetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3269,6 +3397,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkGildedParadeConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3292,6 +3421,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DoubletConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -3307,9 +3437,16 @@ public class ArmorConfig implements ConfigData
 		public boolean enabled;
 		@ConfigEntry.Gui.RequiresRestart
 		public float toughness;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDefense;
+
 		public GoldenNecklaceConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
+			this.chestplateDurability = 0;
+			this.chestplateDefense = 0;
 		}
 	}
 	public static class SilverNecklaceConfig
@@ -3318,9 +3455,16 @@ public class ArmorConfig implements ConfigData
 		public boolean enabled;
 		@ConfigEntry.Gui.RequiresRestart
 		public float toughness;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDefense;
+
 		public SilverNecklaceConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
+			this.chestplateDurability = 0;
+			this.chestplateDefense = 0;
 		}
 	}
 	public static class SilverCrossNecklaceConfig
@@ -3329,9 +3473,16 @@ public class ArmorConfig implements ConfigData
 		public boolean enabled;
 		@ConfigEntry.Gui.RequiresRestart
 		public float toughness;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDefense;
+
 		public SilverCrossNecklaceConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
+			this.chestplateDurability = 0;
+			this.chestplateDefense = 0;
 		}
 	}
 	public static class GoldenCrossNecklaceConfig
@@ -3340,9 +3491,16 @@ public class ArmorConfig implements ConfigData
 		public boolean enabled;
 		@ConfigEntry.Gui.RequiresRestart
 		public float toughness;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int chestplateDefense;
+
 		public GoldenCrossNecklaceConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
+			this.chestplateDurability = 0;
+			this.chestplateDefense = 0;
 		}
 	}
 	public static class ArticulatedConfig
@@ -3355,6 +3513,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public ArticulatedConfig() {
 			this.enabled = true;
 			this.toughness = 1.30f;
@@ -3372,6 +3531,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public CumanHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.70f;
@@ -3397,6 +3557,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkbluedGothicConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3418,6 +3579,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkbluedGreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3435,17 +3597,12 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
-		@ConfigEntry.Gui.RequiresRestart
-		public int bootsDurability;
-		@ConfigEntry.Gui.RequiresRestart
-		public int bootsDefense;
+
 		public DarkbluedGreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
 			this.chestplateDurability = 335;
 			this.chestplateDefense = 8;
-			this.bootsDurability = 230;
-			this.bootsDefense = 2;
 		}
 	}
 	public static class DarkbluedKastenbrustConfig
@@ -3466,6 +3623,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkbluedKastenbrustConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3487,11 +3645,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkbluedArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
-			this.helmetDurability = 385;
-			this.helmetDefense = 4;
+			this.helmetDurability = 270;
+			this.helmetDefense = 3;
 		}
 	}
 	public static class DarkbluedKnightConfig
@@ -3512,6 +3671,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkbluedKnightConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3533,6 +3693,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkbluedMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -3558,6 +3719,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public DarkbluedMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -3579,6 +3741,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public DarkbluedSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3596,6 +3759,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public EngravedCloseHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3613,6 +3777,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public EngravedConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3630,6 +3795,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FoxGrotesqueMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -3647,11 +3813,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
-			this.helmetDurability = 385;
-			this.helmetDefense = 4;
+			this.helmetDurability = 275;
+			this.helmetDefense = 3;
 		}
 	}
 	public static class FullyGildedArticulatedConfig
@@ -3664,9 +3831,10 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public FullyGildedArticulatedConfig() {
 			this.enabled = true;
-			this.toughness = 1.25f;
+			this.toughness = 1.30f;
 			this.chestplateDurability = 335;
 			this.chestplateDefense = 8;
 		}
@@ -3689,6 +3857,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public FullyGildedGothicConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3710,6 +3879,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedGrandBascinetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3727,6 +3897,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedGreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3748,6 +3919,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public FullyGildedGreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3767,9 +3939,10 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedGrilledHelmetConfig() {
 			this.enabled = true;
-			this.toughness = 0.00f;
+			this.toughness = 1.25f;
 			this.helmetDurability = 275;
 			this.helmetDefense = 3;
 		}
@@ -3784,11 +3957,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedJoustingHelmetConfig() {
 			this.enabled = true;
-			this.toughness = 1.80f;
-			this.helmetDurability = 275;
-			this.helmetDefense = 3;
+			this.toughness = 2.00f;
+			this.helmetDurability = 385;
+			this.helmetDefense = 4;
 		}
 	}
 	public static class FullyGildedJoustingConfig
@@ -3809,9 +3983,10 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public FullyGildedJoustingConfig() {
 			this.enabled = true;
-			this.toughness = 1.80f;
+			this.toughness = 2.00f;
 			this.chestplateDurability = 500;
 			this.chestplateDefense = 9;
 			this.leggingsDurability = 440;
@@ -3838,11 +4013,12 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public FullyGildedKastenbrustConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
 			this.chestplateDurability = 335;
-			this.chestplateDefense = 9;
+			this.chestplateDefense = 8;
 			this.leggingsDurability = 315;
 			this.leggingsDefense = 6;
 			this.bootsDurability = 230;
@@ -3867,6 +4043,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public FullyGildedKnightConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3888,6 +4065,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -3913,6 +4091,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public FullyGildedMaximilianConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
@@ -3934,11 +4113,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedMilaneseArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
-			this.helmetDurability = 385;
-			this.helmetDefense = 4;
+			this.helmetDurability = 275;
+			this.helmetDefense = 3;
 		}
 	}
 	public static class FullyGildedSalletConfig
@@ -3951,6 +4131,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public FullyGildedSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -3976,15 +4157,16 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+
 		public GildedChainmailConfig() {
 			this.enabled = true;
-			this.toughness = 1.25f;
-			this.helmetDurability = 385;
-			this.helmetDefense = 4;
+			this.toughness = 0.00f;
+			this.helmetDurability = 205;
+			this.helmetDefense = 2;
 			this.chestplateDurability = 250;
-			this.chestplateDefense = 9;
+			this.chestplateDefense = 5;
 			this.leggingsDurability = 235;
-			this.leggingsDefense = 6;
+			this.leggingsDefense = 4;
 		}
 	}
 	public static class GildedCloseHelmetConfig
@@ -3997,11 +4179,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedCloseHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
-			this.helmetDurability = 205;
-			this.helmetDefense = 2;
+			this.helmetDurability = 275;
+			this.helmetDefense = 3;
 		}
 	}
 	public static class GildedDarkbluedGreenwichArmetConfig
@@ -4014,6 +4197,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedDarkbluedGreenwichArmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4035,6 +4219,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public GildedDarkbluedGreenwichArmorConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4054,6 +4239,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedDarkCloseHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4071,11 +4257,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedFoxGrotesqueMaximilianHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
-			this.helmetDurability = 275;
-			this.helmetDefense = 3;
+			this.helmetDurability = 385;
+			this.helmetDefense = 4;
 		}
 	}
 	public static class GildedGrilledHelmetConfig
@@ -4088,6 +4275,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GildedGrilledHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4105,6 +4293,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GrilledHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4122,6 +4311,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LionHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4139,6 +4329,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public MamlukHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -4156,11 +4347,12 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public MaximilianBurgonetConfig() {
 			this.enabled = true;
 			this.toughness = 1.80f;
-			this.helmetDurability = 275;
-			this.helmetDefense = 3;
+			this.helmetDurability = 385;
+			this.helmetDefense = 4;
 		}
 	}
 	public static class OpenedSalletConfig
@@ -4173,10 +4365,11 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public OpenedSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
-			this.helmetDurability = 385;
+			this.helmetDurability = 275;
 			this.helmetDefense = 2;
 		}
 	}
@@ -4198,6 +4391,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public SplintConfig() {
 			this.enabled = true;
 			this.toughness = 0.70f;
@@ -4219,6 +4413,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public TiltedPuffAndSlashHatConfig() {
 			this.enabled = true;
 			this.toughness = 0.00f;
@@ -4240,6 +4435,7 @@ public class ArmorConfig implements ConfigData
 		public int bootsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int bootsDefense;
+
 		public AllaTedescaConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4259,6 +4455,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public PeascodConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4276,6 +4473,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public GildedPeascodConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4293,6 +4491,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public DarkPeascodConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4310,6 +4509,7 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+
 		public GildedDarkPeascodConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4327,6 +4527,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public TwoEyeSlitsSalletConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4344,6 +4545,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public SalletWithoutVisorConfig() {
 			this.enabled = true;
 			this.toughness = 0.50f;
@@ -4361,6 +4563,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public GermanBascinetConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
@@ -4378,6 +4581,7 @@ public class ArmorConfig implements ConfigData
 		public int helmetDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int helmetDefense;
+
 		public LightCumanHelmetConfig() {
 			this.enabled = true;
 			this.toughness = 0.20f;

@@ -403,6 +403,7 @@ public class AddonItems extends ModItemsProvider
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARKBLUED_GREENWICH_ARMET = INSTANCE.addMedievalArmorItem("darkblued_greenwich_armet", AddonArmorTypes.DARKBLUED_GREENWICH_ARMET, ArmorItem.Type.HELMET, new Item.Properties());
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARKBLUED_GREENWICH_CHESTPLATE = INSTANCE.addMedievalArmorItem("darkblued_greenwich_chestplate", AddonArmorTypes.DARKBLUED_GREENWICH, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARKBLUED_GREENWICH_BOOTS = INSTANCE.addMedievalArmorItem("darkblued_greenwich_boots", AddonArmorTypes.DARKBLUED_GREENWICH, ArmorItem.Type.LEGGINGS, new Item.Properties());
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARKBLUED_KASTENBRUST_CHESTPLATE = INSTANCE.addMedievalArmorItem("darkblued_kastenbrust_chestplate", AddonArmorTypes.DARKBLUED_KASTENBRUST, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> DARKBLUED_KASTENBRUST_LEGGINGS = INSTANCE.addMedievalArmorItem("darkblued_kastenbrust_leggings", AddonArmorTypes.DARKBLUED_KASTENBRUST, ArmorItem.Type.LEGGINGS, new Item.Properties());
