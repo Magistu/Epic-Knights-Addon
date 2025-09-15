@@ -811,6 +811,10 @@ public class ArmorConfig implements ConfigData
 		public int leggingsDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int leggingsDefense;
+		@ConfigEntry.Gui.RequiresRestart
+		public int bootsDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int bootsDefense;
 
 		public DarkCrusaderConfig() {
 			this.enabled = true;
@@ -819,6 +823,8 @@ public class ArmorConfig implements ConfigData
 			this.chestplateDefense = 6;
 			this.leggingsDurability = 280;
 			this.leggingsDefense = 5;
+			this.bootsDurability = 150;
+			this.bootsDefense = 1;
 		}
 	}
 	public static class DarkGrandBascinetConfig
@@ -3594,6 +3600,10 @@ public class ArmorConfig implements ConfigData
 		@ConfigEntry.Gui.RequiresRestart
 		public float toughness;
 		@ConfigEntry.Gui.RequiresRestart
+		public int helmetDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int helmetDefense;
+		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
@@ -3601,6 +3611,8 @@ public class ArmorConfig implements ConfigData
 		public DarkbluedGreenwichConfig() {
 			this.enabled = true;
 			this.toughness = 1.25f;
+			this.helmetDurability = 0;
+			this.helmetDefense = 0;
 			this.chestplateDurability = 335;
 			this.chestplateDefense = 8;
 		}
@@ -4020,9 +4032,9 @@ public class ArmorConfig implements ConfigData
 			this.chestplateDurability = 335;
 			this.chestplateDefense = 8;
 			this.leggingsDurability = 315;
-			this.leggingsDefense = 6;
+			this.leggingsDefense = 5;
 			this.bootsDurability = 230;
-			this.bootsDefense = 3;
+			this.bootsDefense = 2;
 		}
 	}
 	public static class FullyGildedKnightConfig

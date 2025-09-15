@@ -3,14 +3,14 @@
   "pattern": [
     " b ",
     " a ",
-    "bbb"
+    "b b"
   ],
   "key": {
     "a": {
       "item": "magistuarmory:barbute"
     },
     "b": {
-      "tag": "magistuarmory:small_plates/steel"
+      "tag": "c:steel_plates"
     }
   },
   "result": {

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "base": {
-    "item": "magistuarmoryaddon:late_sallet"
+    "item": "magistuarmoryaddon:grilled_helmet"
   },
   "addition": {
     "item": "minecraft:blaze_powder"
