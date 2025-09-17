@@ -120,7 +120,7 @@ publisher {
 
     setProjectVersion(rootProject.mod_version)
 
-    setDisplayName("${rootProject.mod_display_name} ${rootProject.mod_version}")
+    setDisplayName("[${rootProject.minecraft_min_version}] ${rootProject.mod_display_name} ${rootProject.mod_version}")
 
     setGameVersions(*mcVersionsNeo)
 
