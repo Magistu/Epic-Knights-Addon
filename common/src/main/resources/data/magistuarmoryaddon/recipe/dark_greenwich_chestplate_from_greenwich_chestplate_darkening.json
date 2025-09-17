@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:greenwich_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "id": "magistuarmoryaddon:dark_greenwich_chestplate",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:darkening_template"
+    }
+}

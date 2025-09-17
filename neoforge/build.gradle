@@ -1,0 +1,140 @@
+plugins {
+    id "com.github.johnrengelman.shadow" version "7.0.0"
+    id "com.hypherionmc.modutils.modpublisher" version "2.1.8"
+}
+
+loom {
+    accessWidenerPath = project(":common").loom.accessWidenerPath
+}
+
+architectury {
+    platformSetupLoomIde()
+    neoForge()
+}
+
+configurations {
+    common {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentNeoForge.extendsFrom common
+
+    shadowBundle {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+}
+
+repositories {
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
+    maven {
+        name = 'NeoForged'
+        url = 'https://maven.neoforged.net/releases'
+    }
+}
+
+dependencies {
+    neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
+
+    modApi "dev.architectury:architectury-neoforge:${rootProject.architectury_api_version}"
+
+    modImplementation "me.shedaniel.cloth:cloth-config-neoforge:${rootProject.cloth_config_version}"
+    implementation "maven.modrinth:epic-knights-shields-armor-and-weapons:${rootProject.epic_knights_version}-neoforge"
+
+    common(project(path: ":common", configuration: "namedElements")) { transitive false }
+    shadowBundle project(path: ":common", configuration: "transformProductionNeoForge")
+}
+
+processResources {
+    def authors      = (findProperty("mod_authors") ?: "").toString().split(",")*.trim().findAll{it}.join(", ")
+    def contributors = (findProperty("mod_contributors") ?: "").toString().split(",")*.trim().findAll{it}.join(", ")
+
+    def expandProps = [
+            "mod_id"                        : (project.findProperty("mod_id") ?: "").toString(),
+            "mod_name"                      : (project.findProperty("mod_display_name") ?: "").toString(),
+            "mod_version"                   : (project.findProperty("mod_version") ?: "").toString(),
+            "mod_description"               : (project.findProperty("mod_description") ?: "").toString(),
+            "mod_authors"                   : authors,
+            "mod_contributors"              : contributors,
+            "mod_license"                   : (project.findProperty("mod_license") ?: "").toString(),
+            "mod_discord_url"               : (project.findProperty("mod_discord_url") ?: "").toString(),
+            "mod_git_url"                   : (project.findProperty("mod_git_url") ?: "").toString(),
+            "mod_issues_url"                : (project.findProperty("mod_issues_url") ?: "").toString(),
+            "mod_page_url"                  : (project.findProperty("mod_page_url") ?: "").toString(),
+            "minecraft_min_version"         : (project.findProperty("minecraft_min_version") ?: "").toString(),
+            "minecraft_max_version"         : (project.findProperty("minecraft_max_version") ?: "").toString(),
+            "neoforge_version_range"        : (project.findProperty("neoforge_version_range") ?: "").toString(),
+            "neoforge_loader_version_range" : (project.findProperty("neoforge_loader_version_range") ?: "").toString(),
+            "architectury_api_version"      : (project.findProperty("architectury_api_version") ?: "").toString(),
+            "cloth_config_version"          : (project.findProperty("cloth_config_version") ?: "").toString(),
+            "epic_knights_version"          : (project.findProperty("epic_knights_version") ?: "").toString(),
+    ]
+
+    inputs.properties(expandProps)
+
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand(expandProps)
+    }
+}
+
+shadowJar {
+    configurations = [project.configurations.shadowBundle]
+    archiveClassifier = 'dev-shadow'
+}
+
+remapJar {
+    inputFile.set shadowJar.archiveFile
+    dependsOn shadowJar
+
+    archiveClassifier.set(null)
+}
+
+def minecraft_min_version = rootProject.findProperty("minecraft_min_version")
+def mod_version = rootProject.findProperty("mod_version")
+
+tasks.named("remapJar") { t ->
+    t.archiveFileName.set("[${minecraft_min_version}-neoforge]-Epic-Knights-Addon-${mod_version}.jar")
+}
+
+publisher {
+    def mcVersionsNeo = (rootProject.ext.minecraftGameVersions as List).collect { it.toString() } as String[]
+    def changelogFile = rootProject.file("CHANGELOG.md")
+    def changelogText = changelogFile.exists() ? changelogFile.getText("UTF-8") : ""
+
+    apiKeys {
+        modrinth System.getenv("MODRINTH_TOKEN")
+        curseforge System.getenv("CURSEFORGE_TOKEN")
+    }
+
+    setCurseID((rootProject.findProperty("mod_curseforge_id") ?: "").toString())
+
+    setModrinthID((rootProject.findProperty("mod_modrinth_id") ?: "").toString())
+
+    setVersionType((rootProject.findProperty("release_channel") ?: "release").toString())
+
+    setChangelog(changelogText)
+
+    setProjectVersion(rootProject.mod_version)
+
+    setDisplayName("${rootProject.mod_display_name} ${rootProject.mod_version}")
+
+    setGameVersions(*mcVersionsNeo)
+
+    setLoaders("neoforge")
+
+    setCurseEnvironment("both")
+
+    setArtifact(tasks.remapJar)
+
+    modrinthDepends {
+        required("epic-knights-shields-armor-and-weapons")
+    }
+
+    curseDepends {
+        required("epic-knights-armor-and-weapons")
+    }
+}

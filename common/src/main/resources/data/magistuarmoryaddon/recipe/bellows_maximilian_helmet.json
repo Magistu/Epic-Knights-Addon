@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmoryaddon:late_sallet"
+  },
+  "addition": {
+    "item": "minecraft:blaze_powder"
+  },
+  "result": {
+    "id": "magistuarmoryaddon:bellows_maximilian_helmet",
+    "count": 1
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:dark_maximilian_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:lapis_lazuli"
+    },
+    "result": {
+        "id": "magistuarmoryaddon:darkblued_maximilian_chestplate",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:darkening_template"
+    }
+}

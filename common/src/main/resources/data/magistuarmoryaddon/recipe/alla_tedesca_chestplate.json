@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "cdc",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "d": {
+      "item": "magistuarmory:halfarmor_chestplate"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:alla_tedesca_chestplate",
+    "count": 1
+  }
+}

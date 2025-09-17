@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " a ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gold_ingots"
+    },
+    "b": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:golden_ball_decoration",
+    "count": 1
+  }
+}

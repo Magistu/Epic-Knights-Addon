@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_powder"
+    },
+    "b": {
+      "tag": "c:ingots/steel"
+    },
+    "c": {
+      "item": "magistuarmory:halfarmor_chestplate"
+    },
+    "d": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:articulated_chestplate",
+    "count": 1
+  }
+}

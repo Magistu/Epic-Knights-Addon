@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bcb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "b": {
+      "tag": "c:ingots/steel"
+    },
+    "c": {
+      "item": "magistuarmory:halfarmor_chestplate"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:pikeman_chestplate",
+    "count": 1
+  }
+}

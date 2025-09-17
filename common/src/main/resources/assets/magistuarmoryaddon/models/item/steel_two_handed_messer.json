@@ -1,0 +1,96 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/steel_two_handed_messer"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "magistuarmoryaddon:item/steel_two_handed_messer_blocking"
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                -46,
+                -90,
+                0
+            ],
+            "translation": [
+                0,
+                13.75,
+                0.95
+            ],
+            "scale": [
+                1.875,
+                1.875,
+                1
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                -50,
+                90,
+                0
+            ],
+            "translation": [
+                0,
+                13.75,
+                0.2
+            ],
+            "scale": [
+                1.875,
+                1.875,
+                1
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                -90,
+                30
+            ],
+            "translation": [
+                1.13,
+                10,
+                -0.12
+            ],
+            "scale": [
+                1.5,
+                1.5,
+                1
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                180,
+                90,
+                150
+            ],
+            "translation": [
+                1.13,
+                10,
+                -0.38
+            ],
+            "scale": [
+                1.5,
+                1.5,
+                1
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                4.25,
+                0
+            ],
+            "scale": [
+                0.9375,
+                0.9375,
+                0.46875
+            ]
+        }
+    }
+}

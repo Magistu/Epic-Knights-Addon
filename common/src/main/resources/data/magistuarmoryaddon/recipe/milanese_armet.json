@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/steel"
+    },
+    "b": {
+      "item": "magistuarmory:barbute"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:milanese_armet",
+    "count": 1
+  }
+}

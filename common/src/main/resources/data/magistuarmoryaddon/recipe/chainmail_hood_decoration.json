@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    "ccc",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
+    "h": {
+      "item": "magistuarmory:chainmail_helmet"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:chainmail_hood_decoration",
+    "count": 1
+  }
+}

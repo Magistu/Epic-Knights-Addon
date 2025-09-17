@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:gorget_decoration",
+    "count": 1
+  }
+}

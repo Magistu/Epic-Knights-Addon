@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "bab",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:chainmail_chestplate"
+    },
+    "b": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:xiii_century_knight_chestplate",
+    "count": 1
+  }
+}

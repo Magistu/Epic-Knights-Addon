@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gu ",
+    "gsi",
+    " p "
+  ],
+  "key": {
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "g": {
+      "tag": "c:steel_plates"
+    },
+    "s": {
+      "tag": "c:wooden_rods"
+    },
+    "p": {
+      "tag": "magistuarmory:poles"
+    },
+    "u": {
+      "tag": "c:steel_nuggets"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:steel_swiss_halberd",
+    "count": 1
+  }
+}

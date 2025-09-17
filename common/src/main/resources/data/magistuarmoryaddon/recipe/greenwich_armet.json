@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/steel"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "item": "magistuarmory:armet"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:greenwich_armet",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "magistuarmoryaddon:item/steel_lance",
+		"layer0": "magistuarmoryaddon:item/steel_lance"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [5, -90, 0],
+			"translation": [0, 6.5, 10.5],
+			"scale": [2.8125, 2.8125, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [5, 90, 0],
+			"translation": [0, 6.5, 10.5],
+			"scale": [2.8125, 2.8125, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, -90, 90],
+			"translation": [0.5, 9.5, -8],
+			"scale": [2.25, 2.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [30, 90, -90],
+			"translation": [-0.5, 9.5, -8],
+			"scale": [2.25, 2.25, 1]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.9375, 0.9375, 0.46875]
+		},
+		"gui": {
+			"translation": [1.8, 1.8, 0],
+			"scale": [1.22, 1.22, 1]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cdc",
+    "cac",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:poles"
+    },
+    "b": {
+      "tag": "c:wooden_rods"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "d": {
+      "tag": "c:ingots/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:steel_two_handed_evening_star",
+    "count": 1
+  }
+}

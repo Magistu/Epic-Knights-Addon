@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:chainmail_hood_decoration"
+    },
+    "addition": {
+        "tag": "c:gold_ingots"
+    },
+    "result": {
+        "id": "magistuarmoryaddon:gilded_chainmail_hood_decoration",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:gilding_template"
+    }
+}

@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "magistuarmoryaddon:item/steel_scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-55, -90, 0],
+			"translation": [0, 14.5, -1.5],
+			"scale": [2.8125, 2.8125, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-55, 90, 0],
+			"translation": [0, 14.5, -1.5],
+			"scale": [2.8125, 2.8125, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-60, -20, -20],
+			"translation": [-2, 7.5, -2],
+			"scale": [2.25, 2.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-60, 160, 20],
+			"translation": [-2, 7.5, -2],
+			"scale": [2.25, 2.25, 1]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.9375, 0.9375, 0.46875]
+		},
+		"gui": {
+			"translation": [1.75, 0.5, 0],
+			"scale": [1.21, 1.21, 1]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:gallowglass_leggings",
+    "count": 1
+  }
+}

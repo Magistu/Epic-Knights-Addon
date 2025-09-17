@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:late_sallet"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "id": "magistuarmoryaddon:dark_late_sallet",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:darkening_template"
+    }
+}

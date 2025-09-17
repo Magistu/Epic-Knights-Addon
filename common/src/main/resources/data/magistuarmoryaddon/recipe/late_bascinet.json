@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/steel"
+    },
+    "b": {
+      "item": "magistuarmory:norman_helmet"
+    },
+    "c": {
+      "tag": "magistuarmory:rings/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:late_bascinet",
+    "count": 1
+  }
+}

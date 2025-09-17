@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "aca",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:rings/steel"
+    },
+    "b": {
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "c": {
+      "item": "magistuarmory:gambeson_chestplate"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:chained_gambeson",
+    "count": 1
+  }
+}

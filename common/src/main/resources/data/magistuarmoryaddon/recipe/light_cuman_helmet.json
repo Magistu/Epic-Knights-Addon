@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " b ",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    },
+    "b": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:light_cuman_helmet",
+    "count": 1
+  }
+}

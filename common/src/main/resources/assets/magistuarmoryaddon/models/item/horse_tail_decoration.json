@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/horse_tail_decoration",
+        "layer1": "magistuarmoryaddon:item/horse_tail_decoration_overlay"
+    }
+}

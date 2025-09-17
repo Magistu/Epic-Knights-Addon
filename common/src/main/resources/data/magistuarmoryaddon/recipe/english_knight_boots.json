@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bab",
+    "c c",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "b": {
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:english_knight_boots",
+    "count": 1
+  }
+}

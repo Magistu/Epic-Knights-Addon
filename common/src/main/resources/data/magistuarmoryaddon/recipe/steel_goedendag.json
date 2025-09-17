@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  i",
+    " s ",
+    "s  "
+  ],
+  "key": {
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "s": {
+      "tag": "c:wooden_rods"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:steel_goedendag",
+    "count": 1
+  }
+}

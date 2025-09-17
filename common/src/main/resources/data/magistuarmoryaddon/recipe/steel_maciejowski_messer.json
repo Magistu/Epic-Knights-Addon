@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " bb",
+    "cc ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:hilts"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:steel_maciejowski_messer",
+    "count": 1
+  }
+}

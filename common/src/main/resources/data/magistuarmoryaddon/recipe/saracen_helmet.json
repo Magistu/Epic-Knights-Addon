@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " d ",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "magistuarmory:norman_helmet"
+    },
+    "c": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "d": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:saracen_helmet",
+    "count": 1
+  }
+}

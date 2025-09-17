@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/puff_and_slash_robe_decoration",
+        "layer1": "magistuarmoryaddon:item/puff_and_slash_robe_decoration_overlay"
+    }
+}

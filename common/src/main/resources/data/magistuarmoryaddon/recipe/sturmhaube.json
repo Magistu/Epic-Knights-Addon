@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "bab",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmoryaddon:cervelliere"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "tag": "c:ingots/steel"
+    },
+    "d": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:sturmhaube",
+    "count": 1
+  }
+}

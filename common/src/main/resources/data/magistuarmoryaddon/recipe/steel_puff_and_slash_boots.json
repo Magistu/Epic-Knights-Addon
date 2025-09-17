@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bab",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:steel_nugget"
+    },
+    "b": {
+      "tag": "c:ingots/steel"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:steel_puff_and_slash_boots",
+    "count": 1
+  }
+}

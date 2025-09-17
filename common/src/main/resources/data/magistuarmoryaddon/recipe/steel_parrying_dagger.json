@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bc ",
+    "ab "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:hilts"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "tag": "c:ingots/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:steel_parrying_dagger",
+    "count": 1
+  }
+}

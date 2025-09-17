@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dcd",
+    "d d",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
+    "c": {
+      "tag": "c:ingots/steel"
+    },
+    "d": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:late_kettlehat",
+    "count": 1
+  }
+}

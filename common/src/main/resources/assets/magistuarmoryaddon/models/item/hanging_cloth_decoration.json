@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/hanging_cloth_decoration",
+        "layer1": "magistuarmoryaddon:item/hanging_cloth_decoration_overlay"
+    }
+}

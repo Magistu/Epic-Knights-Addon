@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/steel"
+    },
+    "b": {
+      "tag": "c:steel_plates"
+    },
+    "c": {
+      "item": "magistuarmory:halfarmor_chestplate"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:english_knight_chestplate",
+    "count": 1
+  }
+}

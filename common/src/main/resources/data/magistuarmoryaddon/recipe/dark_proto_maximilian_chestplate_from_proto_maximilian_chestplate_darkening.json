@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:proto_maximilian_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:black_dye"
+    },
+    "result": {
+        "id": "magistuarmoryaddon:dark_proto_maximilian_chestplate",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:darkening_template"
+    }
+}

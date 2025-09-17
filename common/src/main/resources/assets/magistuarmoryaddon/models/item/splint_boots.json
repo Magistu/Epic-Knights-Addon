@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/splint_boots",
+        "layer1": "magistuarmoryaddon:item/splint_boots_overlay"
+    }
+}

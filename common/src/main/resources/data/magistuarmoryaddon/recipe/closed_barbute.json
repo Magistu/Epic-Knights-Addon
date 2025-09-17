@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "pnp",
+        " p "
+    ],
+    "key": {
+        "i": {
+            "tag": "c:ingots/steel"
+        },
+        "p": {
+            "tag": "c:steel_plates"
+        },
+        "n": {
+            "tag": "c:steel_nuggets"
+        }
+    },
+    "result": {
+        "id": "magistuarmoryaddon:closed_barbute",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "dad",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magistuarmory:chainmail_chestplate"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "d": {
+      "tag": "c:ingots/steel"
+    }
+  },
+  "result": {
+    "id": "magistuarmoryaddon:coat_of_plates_chestplate",
+    "count": 1
+  }
+}

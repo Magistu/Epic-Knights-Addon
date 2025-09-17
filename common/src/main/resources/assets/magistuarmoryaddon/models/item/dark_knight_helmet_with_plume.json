@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "magistuarmoryaddon:item/dark_knight_helmet",
+		"layer1": "magistuarmoryaddon:item/dark_knight_helmet_overlay"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 1, 0]
+		},
+		"fixed": {
+			"translation": [0, 1, 0]
+		}
+	}
+}

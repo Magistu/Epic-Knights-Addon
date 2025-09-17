@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmoryaddon:dark_knight_leggings"
+    },
+    "addition": {
+        "item": "minecraft:lapis_lazuli"
+    },
+    "result": {
+        "id": "magistuarmoryaddon:darkblued_knight_leggings",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:darkening_template"
+    }
+}

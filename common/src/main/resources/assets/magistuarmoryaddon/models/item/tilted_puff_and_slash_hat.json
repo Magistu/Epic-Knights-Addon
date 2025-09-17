@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "magistuarmoryaddon:item/tilted_puff_and_slash_hat",
+        "layer1": "magistuarmoryaddon:item/tilted_puff_and_slash_hat_overlay"
+    }
+}
