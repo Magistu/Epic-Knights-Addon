@@ -3607,6 +3607,10 @@ public class ArmorConfig implements ConfigData
 		public int chestplateDurability;
 		@ConfigEntry.Gui.RequiresRestart
 		public int chestplateDefense;
+		@ConfigEntry.Gui.RequiresRestart
+		public int bootsDurability;
+		@ConfigEntry.Gui.RequiresRestart
+		public int bootsDefense;
 
 		public DarkbluedGreenwichConfig() {
 			this.enabled = true;
@@ -3615,6 +3619,8 @@ public class ArmorConfig implements ConfigData
 			this.helmetDefense = 0;
 			this.chestplateDurability = 335;
 			this.chestplateDefense = 8;
+			this.bootsDurability = 230;
+			this.bootsDefense = 2;
 		}
 	}
 	public static class DarkbluedKastenbrustConfig

@@ -20,3 +20,5 @@ classes/
 
 forge/run/**
 fabric/run/**
+forge/CHANGELOG.md
+fabric/CHANGELOG.md
