@@ -10,10 +10,10 @@
       "tag": "c:ingots/steel"
     },
     "g": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     },
     "s": {
-      "tag": "c:wooden_rods"
+      "tag": "c:rods/wooden"
     },
     "p": {
       "tag": "magistuarmory:poles"

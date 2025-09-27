@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:early_cabasset"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_early_cabasset",

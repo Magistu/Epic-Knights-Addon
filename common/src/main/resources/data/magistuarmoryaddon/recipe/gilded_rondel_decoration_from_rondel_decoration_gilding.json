@@ -4,7 +4,7 @@
         "item": "magistuarmory:rondel_decoration"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_rondel_decoration",

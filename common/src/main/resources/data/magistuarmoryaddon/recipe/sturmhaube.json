@@ -10,13 +10,13 @@
       "item": "magistuarmoryaddon:cervelliere"
     },
     "b": {
-      "tag": "c:steel_nuggets"
+      "tag": "c:nuggets/steel"
     },
     "c": {
       "tag": "c:ingots/steel"
     },
     "d": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     }
   },
   "result": {

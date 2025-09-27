@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:gilded_maximilian_boots"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_maximilian_boots",

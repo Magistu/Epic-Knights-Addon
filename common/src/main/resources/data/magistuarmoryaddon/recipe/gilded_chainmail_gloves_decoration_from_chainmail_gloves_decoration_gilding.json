@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:chainmail_gloves_decoration"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_chainmail_gloves_decoration",

@@ -10,7 +10,7 @@
       "tag": "magistuarmory:woolen_fabrics"
     },
     "b": {
-      "tag": "c:gold_nuggets"
+      "tag": "c:nuggets/gold"
     },
     "c": {
       "item": "minecraft:red_dye"

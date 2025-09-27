@@ -10,7 +10,7 @@
             "tag": "magistuarmory:hilts"
         },
         "i": {
-            "item": "magistuarmory:steel_ingot"
+            "tag": "c:ingots/steel"
         },
         "N": {
             "item": "magistuarmory:steel_nugget"

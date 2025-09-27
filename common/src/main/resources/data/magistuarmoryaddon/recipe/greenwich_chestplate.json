@@ -10,7 +10,7 @@
       "tag": "c:ingots/steel"
     },
     "b": {
-      "tag": "c:steel_nuggets"
+      "tag": "c:nuggets/steel"
     },
     "c": {
       "item": "magistuarmory:knight_chestplate"

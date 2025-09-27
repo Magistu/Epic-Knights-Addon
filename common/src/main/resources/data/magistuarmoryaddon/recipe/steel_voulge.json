@@ -7,16 +7,16 @@
   ],
   "key": {
     "g": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     },
     "s": {
-      "tag": "c:wooden_rods"
+      "tag": "c:rods/wooden"
     },
     "p": {
       "tag": "magistuarmory:poles"
     },
     "u": {
-      "tag": "c:steel_nuggets"
+      "tag": "c:nuggets/steel"
     }
   },
   "result": {

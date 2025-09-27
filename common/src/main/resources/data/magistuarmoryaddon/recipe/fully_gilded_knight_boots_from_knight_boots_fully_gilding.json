@@ -4,7 +4,7 @@
         "item": "magistuarmory:knight_boots"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_knight_boots",

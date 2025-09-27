@@ -4,7 +4,7 @@
         "item": "magistuarmory:sallet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_sallet",

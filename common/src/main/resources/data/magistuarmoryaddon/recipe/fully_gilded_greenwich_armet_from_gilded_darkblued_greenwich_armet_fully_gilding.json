@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:gilded_darkblued_greenwich_armet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_greenwich_armet",

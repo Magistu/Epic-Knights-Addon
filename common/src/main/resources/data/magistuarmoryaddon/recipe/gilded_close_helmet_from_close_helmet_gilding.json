@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:close_helmet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_close_helmet",

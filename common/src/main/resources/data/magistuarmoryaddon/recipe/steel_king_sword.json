@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": {
-      "tag": "c:gold_nuggets"
+      "tag": "c:nuggets/gold"
     },
     "b": {
       "item": "magistuarmory:steel_shortsword"

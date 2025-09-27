@@ -10,10 +10,10 @@
       "tag": "magistuarmory:poles"
     },
     "b": {
-      "tag": "c:steel_nuggets"
+      "tag": "c:nuggets/steel"
     },
     "c": {
-      "tag": "c:wooden_rods"
+      "tag": "c:rods/wooden"
     },
     "d": {
       "tag": "magistuarmory:small_plates/steel"

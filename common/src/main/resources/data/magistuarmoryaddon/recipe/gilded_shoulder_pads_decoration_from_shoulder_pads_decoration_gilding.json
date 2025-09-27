@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:shoulder_pads_decoration"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_shoulder_pads_decoration",

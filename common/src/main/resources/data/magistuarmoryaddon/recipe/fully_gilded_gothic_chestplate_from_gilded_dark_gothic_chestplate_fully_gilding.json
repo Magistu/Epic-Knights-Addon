@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:gilded_dark_gothic_chestplate"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_gothic_chestplate",

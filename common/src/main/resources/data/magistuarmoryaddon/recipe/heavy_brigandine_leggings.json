@@ -10,7 +10,7 @@
       "item": "minecraft:leather"
     },
     "c": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     }
   },
   "result": {

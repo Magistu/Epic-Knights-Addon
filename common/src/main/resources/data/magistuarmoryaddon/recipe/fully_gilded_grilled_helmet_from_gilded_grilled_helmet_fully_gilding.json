@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:gilded_grilled_helmet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_grilled_helmet",

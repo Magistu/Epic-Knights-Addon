@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "tag": "c:steel_nuggets"
+      "tag": "c:nuggets/steel"
     },
     "b": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     },
     "c": {
       "tag": "c:ingots/steel"

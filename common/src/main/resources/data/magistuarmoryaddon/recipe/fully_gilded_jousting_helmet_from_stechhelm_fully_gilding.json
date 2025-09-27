@@ -4,7 +4,7 @@
         "item": "magistuarmory:stechhelm"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_jousting_helmet",

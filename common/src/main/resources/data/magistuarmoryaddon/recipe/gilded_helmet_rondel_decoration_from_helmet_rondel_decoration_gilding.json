@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:helmet_rondel_decoration"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_helmet_rondel_decoration",

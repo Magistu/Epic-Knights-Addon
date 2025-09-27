@@ -71,6 +71,7 @@ processResources {
             "minecraft_min_version"     : (project.findProperty("minecraft_min_version") ?: "").toString(),
             "minecraft_max_version"     : (project.findProperty("minecraft_max_version") ?: "").toString(),
             "fabric_loader_version"     : (project.findProperty("fabric_loader_version") ?: "").toString(),
+            "min_fabric_loader_version" : (project.findProperty("min_fabric_loader_version") ?: "").toString(),
             "architectury_api_version"  : (project.findProperty("architectury_api_version") ?: "").toString(),
             "cloth_config_version"      : (project.findProperty("cloth_config_version") ?: "").toString(),
             "epic_knights_version"      : (project.findProperty("epic_knights_version") ?: "").toString(),
@@ -95,16 +96,16 @@ remapJar {
     archiveClassifier.set(null)
 }
 
-def minecraft_min_version = rootProject.findProperty("minecraft_min_version")
+def display_minecraft_version = rootProject.findProperty("display_minecraft_version")
 def mod_version = rootProject.findProperty("mod_version")
 
 tasks.named("remapJar") { t ->
-    t.archiveFileName.set("[${minecraft_min_version}-fabric]-Epic-Knights-Addon-${mod_version}.jar")
+    t.archiveFileName.set("[${display_minecraft_version}-fabric]-Epic-Knights-Addon-${mod_version}.jar")
 }
 
 publisher {
     def mcVersionsFabric = (rootProject.ext.minecraftGameVersions as List).collect { it.toString() } as String[]
-    def changelogFile = rootProject.file("CHANGELOG.md")
+    def changelogFile = rootProject.file("fabric/CHANGELOG.md")
     def changelogText = changelogFile.exists() ? changelogFile.getText("UTF-8") : ""
 
     apiKeys {
@@ -122,7 +123,7 @@ publisher {
 
     setProjectVersion(rootProject.mod_version)
 
-    setDisplayName("[${rootProject.minecraft_min_version}] ${rootProject.mod_display_name} ${rootProject.mod_version}")
+    setDisplayName("[${rootProject.minecraft_min_version}-fabric] ${rootProject.mod_display_name} ${rootProject.mod_version}")
 
     setGameVersions(*mcVersionsFabric)
 

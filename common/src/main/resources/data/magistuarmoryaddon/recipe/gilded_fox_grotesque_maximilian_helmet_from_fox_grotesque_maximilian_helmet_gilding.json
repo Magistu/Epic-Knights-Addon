@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:fox_grotesque_maximilian_helmet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_fox_grotesque_maximilian_helmet",

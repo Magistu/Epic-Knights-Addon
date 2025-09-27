@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:gilded_grand_bascinet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:fully_gilded_grand_bascinet",

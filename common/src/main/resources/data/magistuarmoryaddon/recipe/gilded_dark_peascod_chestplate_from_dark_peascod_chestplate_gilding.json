@@ -4,7 +4,7 @@
         "item": "magistuarmoryaddon:dark_peascod_chestplate"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_dark_peascod_chestplate",

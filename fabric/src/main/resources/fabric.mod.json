@@ -22,7 +22,7 @@
   },
   "depends": {
     "fabric": "*",
-    "fabricloader": ">=${fabric_loader_version}",
+    "fabricloader": ">=${min_fabric_loader_version}",
     "minecraft": ">=${minecraft_min_version} <${minecraft_max_version}",
     "architectury": ">=${architectury_api_version}",
     "magistuarmory": ">=${epic_knights_version}",

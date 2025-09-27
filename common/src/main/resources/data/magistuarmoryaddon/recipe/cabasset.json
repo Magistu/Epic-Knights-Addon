@@ -10,7 +10,7 @@
       "tag": "c:ingots/steel"
     },
     "c": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     }
   },
   "result": {

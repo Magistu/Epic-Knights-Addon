@@ -9,10 +9,10 @@
       "item": "magistuarmory:barbute"
     },
     "p": {
-      "tag": "c:steel_plates"
+      "tag": "c:plates/steel"
     },
     "g": {
-      "tag": "c:gold_ingots"
+      "tag": "c:ingots/gold"
     }
   },
   "result": {

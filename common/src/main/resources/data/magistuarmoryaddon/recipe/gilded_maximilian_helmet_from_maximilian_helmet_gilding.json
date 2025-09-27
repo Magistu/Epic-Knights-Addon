@@ -4,7 +4,7 @@
         "item": "magistuarmory:maximilian_helmet"
     },
     "addition": {
-        "tag": "c:gold_ingots"
+        "tag": "c:ingots/gold"
     },
     "result": {
         "id": "magistuarmoryaddon:gilded_maximilian_helmet",

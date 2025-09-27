@@ -10,10 +10,10 @@
       "tag": "magistuarmory:hilts"
     },
     "b": {
-      "tag": "c:steel_nuggets"
+      "tag": "c:nuggets/steel"
     },
     "c": {
-      "tag": "c:wooden_rods"
+      "tag": "c:rods/wooden"
     },
     "d": {
       "tag": "c:ingots/steel"

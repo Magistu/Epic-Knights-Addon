@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "tag": "c:gold_ingots"
+      "tag": "c:ingots/gold"
     },
     "b": {
-      "tag": "c:gold_nuggets"
+      "tag": "c:nuggets/gold"
     }
   },
   "result": {

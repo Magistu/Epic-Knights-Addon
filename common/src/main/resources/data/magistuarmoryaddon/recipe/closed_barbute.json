@@ -10,10 +10,10 @@
             "tag": "c:ingots/steel"
         },
         "p": {
-            "tag": "c:steel_plates"
+            "tag": "c:plates/steel"
         },
         "n": {
-            "tag": "c:steel_nuggets"
+            "tag": "c:nuggets/steel"
         }
     },
     "result": {

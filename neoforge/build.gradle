@@ -93,16 +93,16 @@ remapJar {
     archiveClassifier.set(null)
 }
 
-def minecraft_min_version = rootProject.findProperty("minecraft_min_version")
+def display_minecraft_version = rootProject.findProperty("display_minecraft_version")
 def mod_version = rootProject.findProperty("mod_version")
 
 tasks.named("remapJar") { t ->
-    t.archiveFileName.set("[${minecraft_min_version}-neoforge]-Epic-Knights-Addon-${mod_version}.jar")
+    t.archiveFileName.set("[${display_minecraft_version}-neoforge]-Epic-Knights-Addon-${mod_version}.jar")
 }
 
 publisher {
     def mcVersionsNeo = (rootProject.ext.minecraftGameVersions as List).collect { it.toString() } as String[]
-    def changelogFile = rootProject.file("CHANGELOG.md")
+    def changelogFile = rootProject.file("neoforge/CHANGELOG.md")
     def changelogText = changelogFile.exists() ? changelogFile.getText("UTF-8") : ""
 
     apiKeys {
@@ -120,7 +120,7 @@ publisher {
 
     setProjectVersion(rootProject.mod_version)
 
-    setDisplayName("[${rootProject.minecraft_min_version}] ${rootProject.mod_display_name} ${rootProject.mod_version}")
+    setDisplayName("[${rootProject.minecraft_min_version}-neoforge] ${rootProject.mod_display_name} ${rootProject.mod_version}")
 
     setGameVersions(*mcVersionsNeo)
 
