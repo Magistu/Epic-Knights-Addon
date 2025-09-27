@@ -1,35 +1,35 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
-issueTrackerURL = "https://github.com/Magistu/Epic-Knights-Addon/issues"
-displayURL="https://github.com/Magistu/Epic-Knights-Addon"
-license = "MIT"
-[[mods]]
-modId = "magistuarmoryaddon"
-version = "${version}"
-displayName = "Epic Knights: Addon"
-authors = ["Magistu", "SuperSus890", "SteveMe", "Desperate_bork", "minucius", "hoetistic", "theblackchimera", "Santusio", "Flavius_Blue", "caballerohospitalario", "alhendahu", "Reymecos", "Skydog"]
-credits = ["archimedes"]
-description = '''
-Adds medieval stuff to the game
-'''
+license = "${mod_license}"
+loaderVersion = "${forge_loader_version_range}"
+displayURL = "${mod_page_url}"
+issueTrackerURL = "${mod_issues_url}"
+logoFile = "icon.png"
 
-[[dependencies.magistuarmoryaddon]]
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+credits = "${mod_contributors}"
+description = "${mod_description}"
+
+[[dependencies."${mod_id}"]]
 modId = "forge"
 mandatory = true
-versionRange = "[47,)"
+versionRange = "${forge_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.magistuarmoryaddon]]
+[[dependencies."${mod_id}"]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.0,)"
+versionRange = "[${minecraft_min_version},${minecraft_max_version})"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.magistuarmoryaddon]]
+[[dependencies."${mod_id}"]]
 modId = "magistuarmory"
 mandatory = true
-versionRange = "[9.20,)"
+versionRange = "[${epic_knights_version},)"
 ordering = "AFTER"
 side = "BOTH"

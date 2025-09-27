@@ -1,60 +1,65 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
-[Architectury Transformer DEBUG] Closed File Systems for /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.18-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.23-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 102 classpath jar(s):
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/fabric-loom/1.20.2/forge/1.20.2-48.0.0/forge-client-extra.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/fabric-loom/1.20.2/forge/1.20.2-48.1.0/forge-client-extra.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.9/7eaa23079ac1569963e488054db124c7eb984f05/fabric-loader-0.16.9.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.2/647622ac4163aad5ed5f79ccb532e31225562aa/fabric-loader-0.17.2.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.0.1/13c5c75c4206580aa4d683bffee658caae6c9f43/annotations-24.0.1.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlearlydisplay/1.20.2-48.0.0/d93b6f2ee8e34c4b4c4a5d7bc116d8cb19f7d095/fmlearlydisplay-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.2-48.0.0/1c0c1674abc46543b24234ef81762a473e6ef315/javafmllanguage-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.2-48.0.0/41ea84d5e0ec74a1d60ac59b2614f4e8ed32303a/lowcodelanguage-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.2-48.0.0/9d99805f2e1f5b277743a2f1340d62ca7b16c441/mclanguage-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.2-48.0.0/d5a2f9199b0e0ab4325233e427bc79b84d5f9018/fmlcore-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/net/minecraftforge/cd0bcb98a978869ee6f032a33ccf9f8b919b65e6419309c7411328b199e79eb1/fmlloader/1.20.2-48.0.0/fmlloader-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/5.0.1/386b00279628b105b2d507539c46e134e96f6237/coremods-5.0.1.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/7.0.1/3b4972a0cdb135853dba219be61a79b22cff1309/forgespi-7.0.1.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/8.0.4/272d240aa73f42195b2a68e2ebd8b701ecf41f63/accesstransformers-8.0.4.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/6.0.5/699143dd438431d06b57416944f7cedbe52e1475/eventbus-6.0.5.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/cpw.mods/modlauncher/10.0.9/6d9443f56f50bb85cea383686ff9c867391458b/modlauncher-10.0.9.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/cpw.mods/bootstraplauncher/1.1.2/c546e00443d8432cda6baa1c860346980742628/bootstraplauncher-1.1.2.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/2.1.10/51e6a22c6c716beb11e244bf5b8be480f51dd6b5/securejarhandler-2.1.10.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlearlydisplay/1.20.2-48.1.0/b5951e49178b49352d118c441c5ae3218ed5db26/fmlearlydisplay-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.2-48.1.0/d034c6f69f1f1cf324bdd7bbc66896e67990bbef/javafmllanguage-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.2-48.1.0/ac35e86aee5633ea200ae1607b4ca48b24cd845/lowcodelanguage-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.2-48.1.0/7ddb9ee7a72eb906db86ca9490f35be1789c2813/mclanguage-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.2-48.1.0/7a8d252b70bac3cde4ec0e82bd816fe0212551d/fmlcore-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/6.2.0/861291db776b4817a800758311a88c9a42a55e9/eventbus-6.2.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/net/minecraftforge/a89f90a3cc8fc870de388045c606cd2dddfa08ee4d6243e1cfaa7fce7f838878/fmlloader/1.20.2-48.1.0/fmlloader-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/5.1.0/51c71425f6b216763c7a452b31d51ffa20de8804/coremods-5.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/7.1.0/48348f02f312527ac7b5f1e9105c4cb01a875b0c/forgespi-7.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/modlauncher/10.1.1/f00115c910f869fd937b0d6fa36543f41587911e/modlauncher-10.1.1.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/bootstrap/1.2.0/ef7d81393a75915531d76e4f51743b65859e82f6/bootstrap-1.2.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/securemodules/2.2.3/5a784c87cf99b4b6db15d576f5110b00af25ced0/securemodules-2.2.3.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.9.2/33bad02861cabd77c54a8c9d1205e8638bbbbb4f/unsafe-0.9.2.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.openjdk.nashorn/nashorn-core/15.3/43977e804697048fc8d81d333a36c17d07a5b3dd/nashorn-core-15.3.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.5/19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0/asm-commons-9.5.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.1.5/f3da18e12c696d35a47c82cbb2cc8b5aa15e1154/mergetool-1.1.5-api.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.5/64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe/asm-util-9.5.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.5/490bacc77de7cbc0be1a30bb3471072d705be4a4/asm-analysis-9.5.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.5/fd33c8b6373abaa675be407082fdfda35021254a/asm-tree-9.5.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.5/dc6ea1875f4d64fbc85e1691c95b96a3d8569c90/asm-9.5.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.6/f77caf84eb93786a749b2baa40865b9613e3eaee/asm-util-9.6.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/8.1.1/55b3a0604fec2b22c183a3e49b6f3da4e7aaaf27/accesstransformers-8.1.1.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.6/f1a9e5508eff490744144565c47326c8648be309/asm-commons-9.6.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.6/9ce6c7b174bd997fc2552dff47964546bd7a5ec3/asm-analysis-9.6.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.6/c0cdda9d211e965d2a4448aa3fd86110f2f8c2de/asm-tree-9.6.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.6/aa205cf0a06dbd8e04ece91c0b37c3f5d567546a/asm-9.6.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.9.1/e92af8ab33e428461927b484e90bb155a4f3a052/antlr4-4.9.1.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.1/428664f05d2b7f7b7610204b5aa7c1763f62011a/antlr4-runtime-4.9.1.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.2.0/54d7a0a5e8fdb71b973025caa46f341ae5904f39/unsafe-0.2.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.6.3/a01aaa6ddaea9ec07ec4f209487b7a46a526283a/typetools-0.6.3.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool-api/1.0/589fac8080d2eb657bb37f464151abcd25524d64/mergetool-api-1.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/toml/3.6.4/51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4/toml-3.6.4.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.6.4/510f174abbf1c947494db50ef2445683bd52c230/core-3.6.4.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/JarJarSelector/0.3.19/376cc9c8ea60720cf027c01fc033de915699801c/JarJarSelector-0.3.19.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/JarJarMetadata/0.3.19/83feaa9b770e6ac0e96ee4fc23fa89325c5fe2/JarJarMetadata-0.3.19.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.8.5/4433f50c07debefaed0553bd0068f4f48d449313/maven-artifact-3.8.5.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.6.3/a01aaa6ddaea9ec07ec4f209487b7a46a526283a/typetools-0.6.3.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.11/dd886ad7af30604cbd9aa0f1eb9fb95b079013ca/mixin-patched-0.8.5.11.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.12/cf1f787f58d3b08b0cb53ecbba7928c09a1893c8/mixin-patched-0.8.5.12.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/JarJarFileSystems/0.3.19/2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020/JarJarFileSystems-0.3.19.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.jimfs/jimfs/1.3.0/93096472c3654a761c40c8e5d4ad82a7c1a0fd54/jimfs-1.3.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.2-jre/5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318/guava-32.1.2-jre.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.mojang/logging/1.1.1/832b8e6674a9b325a5175a3a6267dfaf34c85139/logging-1.1.1.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.19.0/3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb/log4j-core-2.19.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j2-impl/2.19.0/5c04bfdd63ce9dceb2e284b81e96b6a70010ee10/log4j-slf4j2-impl-2.19.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/io.github.juuxel/unprotect/1.2.0/49cc229a0469f28fae41593a9537743ac6a951dc/unprotect-1.2.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.19.0/ea1b37f38c327596b216542bc636cfdc0b8036fa/log4j-api-2.19.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/net.minecraftforge/srgutils/0.4.11/fbad1341ffdb47d276bbdc40ecb06da49e053e74/srgutils-0.4.11.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.3.0/cf43b5391de623b36fe066a21127baef82c64022/plexus-utils-3.3.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.13.0/b7263237aa89c1f99b327197c41d0669707a462e/commons-lang3-3.13.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.2-jre/5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318/guava-32.1.2-jre.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.machinezoo.noexception/noexception/1.7.1/b65330c98e38a1f915fa54a6e5eca496505e3f0a/noexception-1.7.1.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.30/e606eac955f55ecf1d8edcccba04eb8ac98088dd/slf4j-simple-1.7.30.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.7/41eb7184ea9d556f23e18b5cb99cad1f8581fc00/slf4j-api-2.0.7.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/de2b60b62da487644fc11f734e73c8b0b431238f/checker-qual-3.33.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.18.0/89b684257096f548fa39a7df9fdaa409d4d4df91/error_prone_annotations-2.18.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.13.0/8bb2bc9b4df17e2411533a0708a69f983bf5e83b/commons-io-2.13.0.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.2/757920418805fb90bfebb3d46b1d9e7669fca2eb/lwjgl-glfw-3.3.2.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/ee8e95be0b438602038bc1f02dc5e3d011b1b216/lwjgl-opengl-3.3.2.jar
@@ -66,12 +71,8 @@
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.3/457216e8e6578099ae63667bb1e4439235892028/org.abego.treelayout.core-1.0.3.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/73.2/61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9/icu4j-73.2.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/de2b60b62da487644fc11f734e73c8b0b431238f/checker-qual-3.33.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.18.0/89b684257096f548fa39a7df9fdaa409d4d4df91/error_prone_annotations-2.18.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-loom-runtime/1.1.8/bf2a4a84e0479a0ab3bb8bfbd906c3737ceb1207/architectury-loom-runtime-1.1.8.jar
+[Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/maven.modrinth/epic-knights-shields-armor-and-weapons/9.20-forge/241b1fc3bba099c819bca5b7bb81ad03246b852d/epic-knights-shields-armor-and-weapons-9.20-forge.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/5.0.47/ff7fd2e80a767f6c369fa2065f018ba21d153cbd/authlib-5.0.47.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar
@@ -100,24 +101,23 @@
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.10.5/22566d58af70ad3d72308bab63b8339906deb649/joml-1.10.5.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.2/877e17e39ebcd58a9c956dc3b5b777813de0873a/lwjgl-jemalloc-3.3.2.jar
 [Architectury Transformer DEBUG]  - /home/lut/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.2/ae5357ed6d934546d3533993ea84c0cfb75eed95/lwjgl-openal-3.3.2.jar
-[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/minecraftMaven/net/minecraft/forge-1.20.2-48.0.0-minecraft-merged-project-@forge/1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0/forge-1.20.2-48.0.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.0.0.jar
-[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_2_layered_hash_40359_v2_forge_1_20_2_48_0_0_forge/io/github/magistu/1.20.2-epic-knights-forge/8.6/1.20.2-epic-knights-forge-8.6.jar
-[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_2_layered_hash_40359_v2_forge_1_20_2_48_0_0_forge/dev/architectury/architectury-forge/10.0.8/architectury-forge-10.0.8.jar
-[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_2_layered_hash_40359_v2_forge_1_20_2_48_0_0_forge/me/shedaniel/cloth/cloth-config-forge/12.0.109/cloth-config-forge-12.0.109.jar
-[Architectury Transformer] Read classpath in 974.9 ms
-[Architectury Transformer DEBUG] Closed File Systems for /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.18-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.18-dev.jar to /tmp/10646308457196767590.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@56ac5c80
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@69e49a81
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1023150a
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3ece1e79
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@ab20d7c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@474fae39
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@4f4c789f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@13f9ad9
-[Architectury Transformer DEBUG] Transforming from /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.18-dev.jar to /tmp/10646308457196767590.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/minecraftMaven/net/minecraft/forge-1.20.2-48.1.0-minecraft-merged-project-@forge/1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.1.0/forge-1.20.2-48.1.0-minecraft-merged-project-@forge-1.20.2-loom.mappings.1_20_2.layered+hash.40359-v2-forge-1.20.2-48.1.0.jar
+[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_2_layered_hash_40359_v2_forge_1_20_2_48_1_0_forge/dev/architectury/architectury-forge/10.0.8/architectury-forge-10.0.8.jar
+[Architectury Transformer DEBUG]  - /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_2_layered_hash_40359_v2_forge_1_20_2_48_1_0_forge/me/shedaniel/cloth/cloth-config-forge/11.1.136/cloth-config-forge-11.1.136.jar
+[Architectury Transformer] Read classpath in 1.003 s
+[Architectury Transformer DEBUG] Closed File Systems for /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.23-dev.jar
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.23-dev.jar to /tmp/10231542529505133041.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7159a5cd
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4f966719
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@18ac53e8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@4ca8dbfa
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@7063686f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@c3177d5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@76f856a8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@7c853486
+[Architectury Transformer DEBUG] Transforming from /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.23-dev.jar to /tmp/10231542529505133041.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$138/0x00007f5eb808d838@30669dac
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$138/0x00007fdc6008c548@3b2f4a93
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
@@ -130,342 +130,342 @@
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/AddonModels with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HelmetRondelModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/RoyalPlumeModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HangingClothModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HelmetWingsModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/CodpieceModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PinceNezModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/MustacheModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HangingClothModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtFeathersModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PinceNezModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HeavyShoulderPadModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtHatModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GooseModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HorseTailDecorationModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/NecklaceModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GorgetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HorseTailDecorationModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/SkirtModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/UnderarmorTunicModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/LandsknechtHatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HeavyShoulderPadModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GlovesModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/ArticulatedPauldronsModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PuffAndSlashRobeModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/SkirtModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/ShoulderPadsModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HoodModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PlackartModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/RamHornsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/ArticulatedPauldronsModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/HoodModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PuffAndSlashRobeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PuffAndSlashSleevesModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/MedievalCloakModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/PlackartModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/GiorneaModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/MedievalCloakModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/decoration/FrontalFeatherModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CloseHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SturmhaubeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ParadeBurgonetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateSalletModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BellowsMaximilianHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MilaneseArmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CondottieroCapModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GreathelmModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MaximilianBurgonetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FoxGrotesqueMaximilianHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CondottieroCapModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/OpenedSalletModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KlappvisorBascinetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FoxGrotesqueMaximilianHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BurgundianKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/UnderarmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CloseHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateSalletModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SturmhaubeModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BellowsMaximilianHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PuffAndSlashModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletWithoutNeckProtectionModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ExquisiteArmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ClosedBurgonetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FancyHatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SavoyardHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CumanHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KlappvisorBascinetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GreenwichArmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BritishArmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ClosedBurgonetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BurgundianKettlehatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ExquisiteArmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBascinetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CumanHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PuffAndSlashTiltedHatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/UnderarmorModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FancyHatModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/KulahKhudModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBascinetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PuffAndSlashTiltedHatModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GrilledHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SavoyardHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBurgonetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SteelPuffAndSlashModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MorionModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyGreathelmModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateKettlehatModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LobsterTailedHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/NecklaceArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SteelPuffAndSlashModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyGreathelmModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/FacialGrotesqueMaximilianHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/VisoredKettlehatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BicoqueModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/StrawHatModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PatricianTuherHelmetModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletWithoutVisorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/NecklaceArmorModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/MorionModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/EarlyCabassetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/GermanBascinetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/CabassetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/VisoredKettlehatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/StrawHatModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/BicoqueModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/PatricianTuherHelmetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateBurgonetModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/SalletWithoutVisorModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/TunicModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/DevilishGrotesqueMaximilianHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/ChapelModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/DevilishGrotesqueMaximilianHelmetModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/armor/LateGreathelmModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/client/render/model/shield/DuelingShieldModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/misc/AddonCreativeTabs with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/misc/AddonMerchOffers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedMaximilianConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$KlappvisorBascinetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FoxGrotesqueMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CrowBeakConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CavalrySabreConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MaximilianBurgonetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkHalfArmorConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$YellowPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EngravedConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtBlueHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SteelPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RoundMaceConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ClosedBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FoxGrotesqueMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SwordbreakerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PatricianTuherHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$KlappvisorBascinetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CumanHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedMaximilianConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WelshGuisarmeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CrowBeakConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$CutlassConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkHalfArmorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGreathelmConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FauchardConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtBlueHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RoundMaceConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SteelPuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BillhookConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$TiltedPuffAndSlashHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGreathelmConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PatricianTuherHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateBascinetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$OrangePuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkKastenbrustConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedKastenbrustConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGrilledHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtWhiteHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtRedHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateBurgonetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GoldenNecklaceConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SaracenConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedGreenwichArmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGothicConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGreenwichConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkMaximilianConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SwordbreakerConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EarlyGreathelmConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CumanCaptainHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CabassetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGildedGreenwichConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$TunicConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MaximilianBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CumanCaptainHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkBellowsMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CondottieroCapConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedKastenbrustConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$OrangePuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtRedHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtWhiteHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ItalianPoleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGothicConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$YellowPuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ClosedBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedGreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkMaximilianConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EarlyGreathelmConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CabassetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGreenwichConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkKastenbrustConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSeaxConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$HammerSpearConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGreenwichArmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ProtoMaximilianConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$HammerSpearConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkHeavyCuirassierConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GrilledHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CloseHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilverCrossNecklaceConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGreenwichArmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CloseHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MaciejowskiMesserConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MamlukHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GallowglassConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarHammerConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$RedPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BarMaceConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedMilaneseArmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedSteelPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateKettlehatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LionHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$HeavyBrigandineConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CervelliereConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedKnightConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SwissHalberdConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtCyanHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BoarSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EngravedConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedArticulatedConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$TunicConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$KulahKhudConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkBellowsMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BrownPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CondottieroCapConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MirrorConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GrandFalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GoldenNecklaceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedSteelPuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilverCrossNecklaceConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RichSaxonSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LobsterTailedHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateKettlehatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$HeavyBrigandineConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedKnightConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LionHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CervelliereConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BarMaceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtCyanHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtOrangeHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MesserSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SaracenConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedMilaneseArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BrownPuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXvConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaneaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$RedPuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ChainedGambesonConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtYellowHatConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkMaximilianConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ChainedGambesonConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LimePuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScimitarConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtOrangeHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SaxonSwordConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkProtoMaximilianConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedArticulatedConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MilitaryForkConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LobsterTailedHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CeremonialKastenbrustConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FrenchHalberdConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MirrorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkProtoMaximilianConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGrandBascinetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedCloseHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SalletWithoutVisorConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ClosedBarbuteConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$MilitaryForkConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SideswordConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGreenwichConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EnglishKnightConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtLightBlueHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GermanBascinetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BurgundianKettlehatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EmbosedParadeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkbluedGreenwichArmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CyanPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedSugarloafHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$StrawHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LanceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedChainmailConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SalletWithoutNeckProtectionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedPeascodConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SalletWithoutVisorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedCloseHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtLightBlueHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BurgundianKettlehatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EnglishKnightConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EmbosedParadeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GermanBascinetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkbluedGreenwichArmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BroadaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGreenwichConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CyanPuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BollockDaggerConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$AllaTedescaConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$StrawHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EarlyCabassetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkStechhelmConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedSalletConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$VisoredKettlehatConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MagentaPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ExquisiteMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$VisoredKettlehatConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LightBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ExquisiteMaximilianHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$KingSwordConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtMagentaHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$TabletHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtLimeHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DoubletConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkPeascodConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedChainmailConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SabreConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtPurpleHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DoubletConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GallowglassAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GermanGreatswordConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DevilishGrotesqueMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ClosedBarbuteConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ExecutionersSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EarlyCabassetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtPurpleHatConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedFoxGrotesqueMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LanceConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MorionConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SplintConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedSugarloafHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkCloseHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FacialGrotesqueMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedPeascodConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkbluedGreenwichArmorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkCrusaderConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilverNecklaceConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGothicConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EngravedCloseHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$BattleaxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilveredDarkMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedKnightConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkLateSalletConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkCloseHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SturmhaubeConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LightBluePuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkSalletConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedSalletConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$AvantConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGrandBascinetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SturmhaubeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtGrayHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedKastenbrustConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GoedendagConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGothicConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$MilaneseArmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedArmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$VoulgeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EmbosedParadeBurgonetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGreenwichConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SilverNecklaceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EngravedCloseHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedXivCenturyKnightConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedKnightConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedKastenbrustConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$DaggerConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkArmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkCrusaderConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGothicConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$WhitePuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkLateSalletConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FacialGrotesqueMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGreenwichConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$EmbosedParadeBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkHeavyBrigandineConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LightCumanHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LongswordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PikemanConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GrayPuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$WhitePuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGildedParadeConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GreenwichConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkHeavyBrigandineConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BellowsMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkbluedGreenwichArmorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ScytheConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$OpenedSalletConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BellowsMaximilianHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$LongSeaxConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ChapelConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LightCumanHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkArmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BritishArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ChapelConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedCabassetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GrayPuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedSalletConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FancyHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BluePuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BlackPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtGreenHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGildedGreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkKnightConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$WarAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BluePuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtGrayHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGildedGreenwichArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$XiiiCenturyKnightConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BicoqueConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedEarlyCabassetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkJoustingConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BicoqueConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CoatOfPlatesConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TwoHandedEveningStarConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PurplePuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedJoustingHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PikemanConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TwoHandedMesserConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ShieldsConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedJoustingConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedMaximilianConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedGreenwichConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TwoHandedEveningStarConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$CoatOfPlatesConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PurplePuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtPinkHatConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkGothicConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkKnightConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$XiiiCenturyKnightConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SavoyardHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TwoHandedMesserConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$HeavyCuirassierConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedJoustingConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedGreenwichConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedHalfArmorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXiiiConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$SugarloafHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ShieldsConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LinenConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedMaximilianConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/AddonConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GoldenCrossNecklaceConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedExquisiteMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LightGrayPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateGreathelmConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGrandBascinetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$TwoEyeSlitsSalletConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FederConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateSalletConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedExquisiteMaximilianHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$TwoEyeSlitsSalletConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedHalfArmorConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PinkPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkEarlyCabassetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LinenConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/AddonConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FranciscaAxeConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedGrandBascinetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedDarkPeascodConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ArticulatedConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGrilledHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LateGreathelmConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LightGrayPuffAndSlashConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RapierConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkEarlyCabassetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ParryingDaggerConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedHeavyBrigandineConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GreenPuffAndSlashConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtLightGrayHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$RondelDaggerConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$PartisanConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$BlackPuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$HeavyCuirassierConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FederConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedGrilledHelmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GoldenCrossNecklaceConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GreenPuffAndSlashConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$GlaiveConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedMaximilianHelmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedArmetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$EnglishPoleaxeConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGildedParadeBurgonetConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkSalletConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PeascodConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SickleConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtBrownHatConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$TrainingSwordConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedGothicConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ScaleHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$FullyGildedMaximilianConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtBlackHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ArmingSwordTypeXivConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$PeascodConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedGothicConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$LandsknechtLightGrayHatConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$ScaleHelmetConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$FalchionConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$SickleConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkGildedParadeBurgonetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/WeaponsConfig$ShortSpearConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$DarkbluedArmetConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/magistuarmory/addon/config/ArmorConfig$GildedHeavyBrigandineConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: [1.20.x]-Epic-Knights-Addon-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for /tmp/10646308457196767590.jar
-[Architectury Transformer] Listening at /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.18-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [/tmp/10646308457196767590.jar] contains packages: com.magistuarmory.addon.config, com.magistuarmory.addon.misc, com.magistuarmory.addon.client.render.model.armor, com.magistuarmory.addon.client.render.model.decoration, com.magistuarmory.addon.item.armor, com.magistuarmory.addon.client.render.model.shield, com.magistuarmory.addon.client.render.model, com.magistuarmory.addon, com.magistuarmory.addon.item
-[Architectury Transformer DEBUG] Closed File Systems for /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.18-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for /tmp/10231542529505133041.jar
+[Architectury Transformer] Listening at /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.23-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [/tmp/10231542529505133041.jar] contains packages: com.magistuarmory.addon.config, com.magistuarmory.addon.misc, com.magistuarmory.addon.client.render.model.armor, com.magistuarmory.addon.client.render.model.decoration, com.magistuarmory.addon.item.armor, com.magistuarmory.addon.client.render.model.shield, com.magistuarmory.addon.client.render.model, com.magistuarmory.addon, com.magistuarmory.addon.item
+[Architectury Transformer DEBUG] Closed File Systems for /home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/common/build/devlibs/[1.20.x]-Epic-Knights-Addon-1.23-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [/home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/forge/build/classes/java/main] contains packages: com.magistuarmory.addon.forge
 [Architectury Transformer DEBUG] Classpath entry [/home/lut/Java/modding/Epic-Knights-Addon-1.20.2-crossversion/forge/build/resources/main] contains packages: 
