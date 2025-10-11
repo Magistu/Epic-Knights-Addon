@@ -9,7 +9,7 @@ architectury {
 }
 
 version = rootProject.mod_version
-archivesBaseName = "[${rootProject.display_minecraft_version}-forge]-${rootProject.mod_display_name}"
+archivesBaseName = "${rootProject.mod_display_name}-${rootProject.display_minecraft_version}-forge"
 
 loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath

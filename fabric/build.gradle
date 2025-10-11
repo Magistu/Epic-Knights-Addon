@@ -15,7 +15,7 @@ architectury {
 }
 
 version = rootProject.mod_version
-archivesBaseName = "[${rootProject.display_minecraft_version}-fabric]-${rootProject.mod_display_name}"
+archivesBaseName = "${rootProject.mod_display_name}-${rootProject.display_minecraft_version}-fabric"
 
 configurations {
     common
