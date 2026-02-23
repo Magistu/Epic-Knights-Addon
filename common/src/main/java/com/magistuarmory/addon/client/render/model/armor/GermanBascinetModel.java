@@ -13,8 +13,9 @@ public class GermanBascinetModel {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -7.9F, -4.2F, 8.0F, 7.0F, 8.0F, new CubeDeformation(1.0F))
-				.texOffs(44, 7).addBox(-4.5F, -8.0F, -4.7F, 9.0F, 8.0F, 1.0F, new CubeDeformation(1.0F)), PartPose.offset(0.0F, 1.0F, 0.0F));
+		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -7.6F, -4.2F, 8.0F, 7.0F, 8.0F, new CubeDeformation(0.7F))
+				.texOffs(44, 7).addBox(-4.5F, -8.0F, -4.3F, 9.0F, 8.0F, 1.0F, new CubeDeformation(1.0F))
+				.texOffs(-12, -6).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition hat = partdefinition.addOrReplaceChild("hat", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
 

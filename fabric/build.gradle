@@ -6,7 +6,6 @@ plugins {
 }
 
 loom {
-    accessWidenerPath = project(":common").loom.accessWidenerPath
 }
 
 architectury {
@@ -15,7 +14,7 @@ architectury {
 }
 
 version = rootProject.mod_version
-archivesBaseName = "${rootProject.mod_display_name}-${rootProject.display_minecraft_version}-fabric"
+archivesBaseName = "epic-knights-addon-${rootProject.display_minecraft_version}-fabric"
 
 configurations {
     common
@@ -109,7 +108,6 @@ components.java {
 }
 
 publisher {
-    def mcVersionsNeo = (rootProject.ext.minecraftGameVersions as List).collect { it.toString() } as String[]
     def changelogFile = rootProject.file("fabric/CHANGELOG.md")
     def changelogText = changelogFile.exists() ? changelogFile.getText("UTF-8") : ""
 
@@ -130,7 +128,7 @@ publisher {
 
     setDisplayName("[${rootProject.display_minecraft_version}-fabric]-${rootProject.mod_display_name}-${rootProject.mod_version}")
 
-    setGameVersions(*mcVersionsNeo)
+    setGameVersions("1.20.1")
 
     setLoaders("fabric")
 

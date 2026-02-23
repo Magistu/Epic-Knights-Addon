@@ -30,6 +30,6 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId = "magistuarmory"
 mandatory = true
-versionRange = "[${epic_knights_version},)"
+versionRange = "[10.8,)"
 ordering = "AFTER"
 side = "BOTH"

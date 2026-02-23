@@ -1,0 +1,21 @@
+{
+  "type": "epicfight:dagger",
+  "collider": {
+    "size": [
+      0.3,
+      0.3,
+      0.65
+    ],
+    "number": 2,
+    "center": [
+      0.0,
+      0.0,
+      -0.4
+    ]
+  },
+  "attributes": {
+    "one_hand": {
+      "max_strikes": 3
+    }
+  }
+}

@@ -24,7 +24,7 @@
     "fabric": "*",
     "fabricloader": ">=${fabric_loader_version}",
     "minecraft": ">=${minecraft_min_version} <${minecraft_max_version}",
-    "magistuarmory": ">=${epic_knights_version}"
+    "magistuarmory": ">=10.8"
   },
   "custom": {
     "modmenu": {

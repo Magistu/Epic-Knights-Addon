@@ -1,4 +1,16 @@
 {
+	"longbow": {
+		"enabled": true,
+		"durability": 420,
+		"projectileSpeed": 4.199999809265137,
+		"pullTime": 36
+	},
+	"heavyCrossbow": {
+		"enabled": true,
+		"durability": 500,
+		"projectileSpeed": 4.300000190734863,
+		"pullTime": 50
+	},
 	"barbedClub": {
 		"enabled": true,
 		"baseAttackDamage": 5.599999904632568,

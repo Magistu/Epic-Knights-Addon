@@ -13,8 +13,8 @@ public class SturmhaubeModel
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
 		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 10).addBox(0.0F, -10.4F, -4.7F, 0.0F, 5.0F, 10.0F, new CubeDeformation(0.0F))
-				.texOffs(0, 0).addBox(-4.0F, -7.9F, -3.2F, 8.0F, 8.0F, 7.0F, new CubeDeformation(1.0F))
-				.texOffs(39, 11).addBox(-4.0F, -7.9F, -3.7F, 8.0F, 8.0F, 1.0F, new CubeDeformation(0.97F)), PartPose.offset(0.0F, 0.0F, 0.0F));
+				.texOffs(39, 11).addBox(-4.0F, -7.9F, -3.8F, 8.0F, 8.0F, 1.0F, new CubeDeformation(0.77F))
+				.texOffs(0, 0).addBox(-4.0F, -7.9F, -3.2F, 8.0F, 8.0F, 7.0F, new CubeDeformation(0.8F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition cube_r1 = head.addOrReplaceChild("cube_r1", CubeListBuilder.create().texOffs(10, 14).addBox(-3.65F, -27.5F, -15.45F, 5.0F, 0.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, 19.2F, 13.25F, 0.1731F, -0.0227F, 0.1289F));
 

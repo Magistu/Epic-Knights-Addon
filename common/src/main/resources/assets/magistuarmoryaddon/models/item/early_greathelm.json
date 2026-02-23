@@ -1,6 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "magistuarmoryaddon:item/early_greathelm"
+        "layer0": "magistuarmoryaddon:item/early_greathelm",
+        "layer1": "magistuarmoryaddon:item/early_greathelm_overlay"
     }
 }

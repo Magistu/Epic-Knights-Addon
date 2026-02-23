@@ -1,0 +1,21 @@
+{
+  "type": "epicfight:sword",
+  "collider": {
+    "size": [
+      0.45,
+      0.45,
+      1.0
+    ],
+    "number": 3,
+    "center": [
+      0.0,
+      0.0,
+      -0.8
+    ]
+  },
+  "attributes": {
+    "one_hand": {
+      "max_strikes": 4
+    }
+  }
+}

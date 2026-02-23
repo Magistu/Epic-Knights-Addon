@@ -1,0 +1,17 @@
+{
+  "type": "epicfight:axe",
+  "collider": {
+    "size": [
+      0.4,
+      0.4,
+      0.55
+    ],
+    "number": 3,
+    "center": [
+      0.0,
+      0.0,
+      -0.55
+    ]
+  },
+  "attributes": {}
+}

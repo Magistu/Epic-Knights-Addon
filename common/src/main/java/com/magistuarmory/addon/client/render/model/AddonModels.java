@@ -3,7 +3,7 @@ package com.magistuarmory.addon.client.render.model;
 import com.magistuarmory.addon.EpicKnightsAddon;
 import com.magistuarmory.addon.client.render.model.armor.*;
 import com.magistuarmory.addon.client.render.model.decoration.*;
-import com.magistuarmory.addon.client.render.model.shield.*;
+import com.magistuarmory.addon.client.render.model.shield.DuelingShieldModel;
 import com.magistuarmory.api.client.render.model.ModModelsProvider;
 import com.magistuarmory.client.render.model.decoration.RondelModel;
 import com.magistuarmory.client.render.model.decoration.TopDecorationModel;
@@ -16,7 +16,9 @@ public class AddonModels extends ModModelsProvider
 
 	// Armor
 	public static final ModelLayerLocation SALLET_LOCATION = INSTANCE.addArmorModel("sallet", SalletModel::createLayer);
+	public static final ModelLayerLocation LION_HELMET_LOCATION = INSTANCE.addArmorModel("lion_helmet", LionHelmetModel::createLayer);
 	public static final ModelLayerLocation GREATHELM_LOCATION = INSTANCE.addArmorModel("greathelm", GreathelmModel::createLayer);
+	public static final ModelLayerLocation SUGARLOAF_HELMET_LOCATION = INSTANCE.addArmorModel("sugarloaf_helmet", SugarloafHelmetModel::createLayer);
 	public static final ModelLayerLocation SAVOYARD_HELMET_LOCATION = INSTANCE.addArmorModel("savoyard_helmet", SavoyardHelmetModel::createLayer);
 	public static final ModelLayerLocation MORION_LOCATION = INSTANCE.addArmorModel("morion", MorionModel::createLayer);
 	public static final ModelLayerLocation MILANESE_ARMET_LOCATION = INSTANCE.addArmorModel("milanese_armet", MilaneseArmetModel::createLayer);

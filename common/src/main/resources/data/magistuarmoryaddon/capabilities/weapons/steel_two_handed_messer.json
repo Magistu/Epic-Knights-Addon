@@ -1,0 +1,27 @@
+{
+  "type": "epicfight:greatsword",
+  "collider": {
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "number": 3,
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "attributes": {
+    "one_hand": {
+      "max_strikes": 3
+    },
+    "ochs": {
+      "max_strikes": 3
+    },
+    "two_hand": {
+      "max_strikes": 5
+    }
+  }
+}

@@ -13,8 +13,8 @@ public class LandsknechtHatModel
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.5F, -4.15F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.1F))
-				.texOffs(8, 16).addBox(-7.0F, -6.2F, -7.0F, 14.0F, 2.0F, 14.0F, new CubeDeformation(0.3F)), PartPose.offset(0.0F, 0.0F, 0.0F));
+		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.5F, -4.15F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.8F))
+				.texOffs(8, 16).addBox(-7.0F, -6.1F, -7.0F, 14.0F, 2.0F, 14.0F, new CubeDeformation(0.2F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition hat = partdefinition.addOrReplaceChild("hat", CubeListBuilder.create(), PartPose.offset(0.0F, 26.0F, 0.0F));
 

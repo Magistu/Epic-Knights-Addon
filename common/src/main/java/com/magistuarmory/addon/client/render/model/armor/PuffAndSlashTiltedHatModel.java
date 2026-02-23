@@ -11,8 +11,8 @@ public class PuffAndSlashTiltedHatModel {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.5F, -4.15F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.75F))
-		.texOffs(32, 0).addBox(-4.0F, -8.5F, -4.15F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.7F)), PartPose.offset(0.0F, 1.0F, 0.0F));
+		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.5F, -4.15F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.65F))
+				.texOffs(32, 0).addBox(-4.0F, -8.5F, -4.15F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.6F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition head_r1 = head.addOrReplaceChild("head_r1", CubeListBuilder.create().texOffs(0, 20).addBox(-3.1042F, -1.4441F, -1.0F, 3.0F, 1.0F, 10.0F, new CubeDeformation(0.3F)), PartPose.offsetAndRotation(-5.6585F, -7.0118F, -3.9165F, 0.0F, 0.0F, 0.9774F));
 

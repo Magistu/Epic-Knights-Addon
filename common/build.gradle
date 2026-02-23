@@ -2,7 +2,7 @@ plugins {
     id "java-library"
 }
 
-archivesBaseName = "${rootProject.mod_display_name}-${rootProject.display_minecraft_version}"
+archivesBaseName = "epic-knights-addon-${rootProject.display_minecraft_version}"
 
 dependencies {
     // We depend on fabric loader here to use the fabric @Environment annotations and get the mixin dependencies

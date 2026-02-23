@@ -1,0 +1,27 @@
+{
+  "type": "epicfight:spear",
+  "collider": {
+    "size": [
+      0.8,
+      0.8,
+      1.0
+    ],
+    "number": 3,
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "attributes": {
+    "one_hand": {
+      "max_strikes": 4
+    },
+    "ochs": {
+      "max_strikes": 4
+    },
+    "two_hand": {
+      "max_strikes": 6
+    }
+  }
+}

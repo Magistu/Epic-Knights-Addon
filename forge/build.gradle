@@ -9,13 +9,11 @@ architectury {
 }
 
 version = rootProject.mod_version
-archivesBaseName = "${rootProject.mod_display_name}-${rootProject.display_minecraft_version}-forge"
+archivesBaseName = "epic-knights-addon-${rootProject.display_minecraft_version}-forge"
 
 loom {
-    accessWidenerPath = project(":common").loom.accessWidenerPath
 
     forge {
-        convertAccessWideners.set(true)
     }
 }
 
@@ -98,7 +96,6 @@ components.java {
 }
 
 publisher {
-    def mcVersionsForge = (rootProject.ext.minecraftGameVersions as List).collect { it.toString() } as String[]
     def changelogFile = rootProject.file("forge/CHANGELOG.md")
     def changelogText = changelogFile.exists() ? changelogFile.getText("UTF-8") : ""
 
@@ -119,7 +116,7 @@ publisher {
 
     setDisplayName("[${rootProject.display_minecraft_version}-forge]-${rootProject.mod_display_name}-${rootProject.mod_version}")
 
-    setGameVersions(*mcVersionsForge)
+    setGameVersions("1.20.1")
 
     setLoaders("forge")
 

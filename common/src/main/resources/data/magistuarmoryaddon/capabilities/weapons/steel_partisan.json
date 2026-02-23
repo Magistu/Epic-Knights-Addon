@@ -1,0 +1,25 @@
+{
+  "collider": {
+    "size": [
+      0.6,
+      0.6,
+      1.0
+    ],
+    "number": 3,
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "attributes": {
+    "one_hand": {
+      "speed_bonus": 0.4
+    },
+    "two_hand": {
+      "max_strikes": 2,
+      "speed_bonus": -0.4
+    }
+  },
+  "type": "magistuarmoryaddon:pike"
+}

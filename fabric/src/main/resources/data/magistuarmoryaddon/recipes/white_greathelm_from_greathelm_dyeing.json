@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "magistuarmory:greathelm"
+    },
+    "addition": {
+        "item": "minecraft:white_dye"
+    },
+    "result": {
+        "item": "magistuarmoryaddon:white_greathelm",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:darkening_template"
+    }
+}

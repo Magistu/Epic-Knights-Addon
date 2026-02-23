@@ -14,17 +14,19 @@ public class LateKettlehatModel
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(32, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));
+		PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(32, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.7F))
+				.texOffs(32, 16).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.6F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
-		PartDefinition bone_r1 = head.addOrReplaceChild("bone_r1", CubeListBuilder.create().texOffs(-3, 3).mirror().addBox(-8.0F, -0.1F, -2.8F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offsetAndRotation(0.0F, -5.6F, 4.9F, 0.6981F, -3.1416F, 0.0F));
+		PartDefinition bone_r1 = head.addOrReplaceChild("bone_r1", CubeListBuilder.create().texOffs(-3, 3).addBox(-8.0F, -0.1F, -2.8F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, -5.5F, 4.6F, 0.6981F, 3.1416F, 0.0F));
 
-		PartDefinition bone_r2 = head.addOrReplaceChild("bone_r2", CubeListBuilder.create().texOffs(-3, 3).addBox(-8.0F, -0.1F, -2.8F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, -5.6F, 4.9F, 0.6981F, 3.1416F, 0.0F));
+		PartDefinition bone_r2 = head.addOrReplaceChild("bone_r2", CubeListBuilder.create().texOffs(-3, 0).mirror().addBox(-8.0F, 0.0F, -1.5F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offsetAndRotation(-5.6601F, -4.741F, 0.0F, 0.0F, 1.5708F, -0.6981F));
 
-		PartDefinition bone_r3 = head.addOrReplaceChild("bone_r3", CubeListBuilder.create().texOffs(-3, 0).mirror().addBox(-7.9F, -0.1F, -2.8F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offsetAndRotation(-5.0F, -5.6F, 0.1F, 0.0F, 1.5708F, -0.6981F));
+		PartDefinition bone_r3 = head.addOrReplaceChild("bone_r3", CubeListBuilder.create().texOffs(-3, 3).mirror().addBox(-8.0F, -0.1F, -2.8F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offsetAndRotation(0.0F, -5.5F, 4.6F, 0.6981F, -3.1416F, 0.0F));
 
-		PartDefinition bone_r4 = head.addOrReplaceChild("bone_r4", CubeListBuilder.create().texOffs(-3, 0).addBox(-8.1F, -0.1F, -2.8F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(5.0F, -5.6F, 0.1F, 0.0F, -1.5708F, 0.6981F));
+		PartDefinition bone_r4 = head.addOrReplaceChild("bone_r4", CubeListBuilder.create().texOffs(-3, 0).addBox(-8.0F, 0.0F, -1.5F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(5.6601F, -4.741F, 0.0F, 0.0F, -1.5708F, 0.6981F));
 
-		PartDefinition bone_r5 = head.addOrReplaceChild("bone_r5", CubeListBuilder.create().texOffs(-3, 3).addBox(-8.0F, -0.6F, -2.4F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, -5.0F, -5.0F, 0.6981F, 0.0F, 0.0F));
+		PartDefinition bone_r5 = head.addOrReplaceChild("bone_r5", CubeListBuilder.create().texOffs(-3, 3).addBox(-8.0F, -0.6F, -2.4F, 16.0F, 0.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, -4.9F, -4.5F, 0.6981F, 0.0F, 0.0F));
+
 		PartDefinition hat = partdefinition.addOrReplaceChild("hat", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
 
 		PartDefinition body = partdefinition.addOrReplaceChild("body", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
